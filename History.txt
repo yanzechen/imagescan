@@ -1,0 +1,97 @@
+ImageScan v1.0.0.1
+1. 视频按照默认格式进行连接, 拍照采用截取视频Buffer方式实现.
+
+ImageScan v1.0.0.2
+主要更新:
+1. 调整界面布局;
+2. 增加"底片" and "灰白" 视频输出模式;
+3. 视频输出格式: 如果存在"VGA"格式, 则以"VGA"大小输出; 否则, 选择最小的格式输出
+   拍照: 在StillPin端进行拍照, 拍照输出格式选择拍照格式中最大的格式输出.
+
+ImageScan v1.0.0.3
+主要更新:
+1. 照片集中的照片添加"双击预览"功能.
+
+ImageScan v1.0.0.3_C1_1
+主要更新:
+1. 添加对9M(九百万)的拍照支持.
+   (9M照片上传格式为Raw, 且设备分两次上传照片的上半幅与下半幅(并且下半幅是垂直镜
+   像的), AP需要接收两个半幅照片, 并且将下半幅做垂直镜像(以便恢复到正确图像),然
+   后将上下两幅拼接, 做RAWtoRGB转换, 转换后再做4倍增益输出.
+
+ImageScan v1.0.0.3_C1_2
+主要更新:
+1. 保存照片时在原来的"JPEG"基础上增加"BMP"保存方式.
+
+ImageScan v1.0.0.3_C1_3:
+主要更新:
+1. 对9M拍照, RAWToRGB转换后, 不做4倍增益.
+
+ImageScan v1.0.0.3_C1_3 (2)
+1. 修改AP照片集照片保存方式, 原来照片集照片直接保存到内存中, 先修改为
+保存到磁盘临时目录;
+2. 将Raw处理模块进行封装(CRawUtil, CRawPars), 并留出UI设置界面
+3. 可以将9M Raw文件进行保存;
+4. 根据客户提供图片对AP进行美化(包括: 照片集背景, 按钮).
+
+ImageScan v1.0.0.3_C1_3 (3)
+1. 为提升程序运行效率, 对Raw处理部分(CRaw8ToRGB24, CRawUtil类代码进行优化), 并添加MMX;
+2. 按客户要求, 取消保存类型选项(默认jpeg格式保存), Raw属性页, Raw文件保存, 界面全部修改为英文, 照片集照片数指定为12个, 增加"Scan Quality"及界面布局修改;
+3. "MessageBox()"修改为"MessageBox(, NULL, MB_ICONINFORMATION/ICON
+WARING/ICONERROR)";
+4. AP默认预览模式由"Slide"修改为"Negative".
+
+ImageScan v1.0.0.3_C1_3 (4)
+1. GroupBox上的文本颜色由"蓝色"改为"黑色";
+2. 添加"Scan Quality"功能;
+3. 取消"照片集"照片双击预览功能;
+4. 添加"9M 反Gamma"输出负片功能;
+5. 除过9M拍照, 其他(FS-300预览与拍照, FS-900预览)的"Film Type"都由FW端
+来实现, AP向设备端发送相应指令, 来改变设备"Film Type";
+6. 通过FWVersion来判断当前设备是否为FS-300, FS-900或其他设备, 如果为其他
+设备, 则禁止使用AP "Film Type"功能.
+7. 有肯能PC上第一个设备非Sonix FS-300, FS-900,所以修改"CDXCapture"类, 增加成员函数
+// 获取设备列表中由"iMonikerIdx"指定的设备
+HRESULT CDXCapture::FindCatureDeviceByMoniker(IMoniker **ppMoniker, UINT iMonikerIdx)
+可以查找指定设备.
+8. 按照客户要求AP名称由"ImageScan"修改为"FilmScan";
+9. FS-300 3M照片(经过设备端剪裁小于3M)由AP进行插补(到3M);
+10. 修改AP开启后无法正确Set Film Type问题;
+11. 代码中如下错误:
+//	lRet = regKey.Open(HKEY_LOCAL_MACHINE, strRegPath);				// haifeng_liu 2010/12/15 modify
+	lRet = regKey.Create(HKEY_LOCAL_MACHINE, strRegPath);
+
+12. 按照客户要求AP名称由"FilmScan"修改为"Image Scan Tool".
+
+15:09 2011-2-15
+1. 修改照片旋转时照片预览窗口变黑问题.
+
+2011-2-22
+1. "Color/Brightness Adjustment"对话框添加图标.
+
+v 1.0.0.4:
+ v 1.0.0.4_C1_1:
+1. 修改"Create RGB/Y GammaTable()"中BYTE数据溢出导致图像异常(白色部分变黑). (BYTE by = 256; by == 0;)
+2. 去除"Color/Brightness Adjustment"对话框图标中冗余图标(只保留.ico中64x64 32bit bmp), 减小.exe AP Size.
+3. 修改"SetBrightness/Color"异常.
+4. 照片保存命名规则修改为"IMG_xxxx.jpg"
+5. 在测试中发现"SaveImageToFile()"保存图片可能会失败, 所以在
+"SaveImageToFile()"中添加对"pImage->Save()"返回值判断处理.
+
+ v 1.0.0.4_C1_2:
+1. 关闭或保存照片时确保当前所有图片处理线程工作已经完成, 如果没有完成则等待
+   完成;
+2. 修改v 1.0.0.4_C1_1 选中一幅照片时, 对应的"m_iSelectedImageIndex"没有正确赋值导   致图像操作(保存, 删除和旋转)顺序出错问题.
+ 
+ v 1.0.0.4_C1_3:
+1. 解决"v 1.0.0.4_C1_2中删除照片时, 对应的"ImageRatoteFlipRecord"没有做调整, 导致保存后的照片RotateFlip状态发生错乱"问题.
+
+ v 1.0.0.4_C2_3:
+1. v1.0.0.4_C2_3是在最新底片拍照工具v1.0.0.4_C1_3基础上(按照客户要求)做如下修改:
+(1) 删除"Brightness/RGBGain Adjustment"对话框中美好图标;
+(2) 照片保存名称由原来的"IMG_xxxx.jpg"修改为"日期+时间+xx.jpg".
+
+v 1.0.0.4_C2_4:
+1. 按客户要求, Raw "YEdgeGain"和"YEdgeThd"固定为"63"和"8".
+   注: Raw Paramter "YEdgeGain"和"YEdgeThd"固定为"63"和"8"只在"v 1.0.0.4_C2"版本中添加, "v 1.0.0.4_C1"版本中"YEdgeGain"和"YEdgeThd"
+       从设备端读取.

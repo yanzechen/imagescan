@@ -1,0 +1,3219 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ImageScan.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ImageScan.ico"
+IDI_BGAIN1              ICON                    "res\\BGain1.ico"
+IDI_BGAIN2              ICON                    "res\\BGain2.ico"
+IDI_BRIGHTNESS1         ICON                    "res\\Brightness1.ico"
+IDI_BRIGHTNESS2         ICON                    "res\\Brightness2.ico"
+IDI_GGAIN1              ICON                    "res\\GGain1.ico"
+IDI_GGAIN2              ICON                    "res\\GGain2.ico"
+IDI_RGAIN1              ICON                    "res\\RGain1.ico"
+IDI_RGAIN2              ICON                    "res\\RGain2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LIST_DEFAULT        BITMAP                  "res\\bitmap1.bmp"
+IDB_BITMAP1             BITMAP                  "res\\bmp00001.bmp"
+IDB_BITMAP2             BITMAP                  "res\\bitmap2.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+IDB_BITMAP4             BITMAP                  "res\\bitmap4.bmp"
+IDB_BITMAP5             BITMAP                  "res\\bitmap5.bmp"
+IDB_BITMAP6             BITMAP                  "res\\bitmap6.bmp"
+PHOTOSBACKU             BITMAP                  "res\\UI-bottom.bmp"
+DELETEF                 BITMAP                  "res\\DeleteA.bmp"
+DELETEU                 BITMAP                  "res\\DeleteB.bmp"
+DELETED                 BITMAP                  "res\\DeleteC.bmp"
+EXITF                   BITMAP                  "res\\ExitA.bmp"
+EXITU                   BITMAP                  "res\\ExitB.bmp"
+EXITD                   BITMAP                  "res\\ExitC.bmp"
+BROWSEF                 BITMAP                  "res\\FOldA.bmp"
+BROWSEU                 BITMAP                  "res\\FOldB.bmp"
+BROWSED                 BITMAP                  "res\\FOldC.bmp"
+HMIRRORF                BITMAP                  "res\\MirrorA.bmp"
+HMIRRORU                BITMAP                  "res\\MirrorB.bmp"
+HMIRRORD                BITMAP                  "res\\MirrorC.bmp"
+RROTATEF                BITMAP                  "res\\RotateA.bmp"
+RROTATEU                BITMAP                  "res\\RotateB.bmp"
+RROTATED                BITMAP                  "res\\RotateC.bmp"
+SNAPSHOTF               BITMAP                  "res\\sanpshotA.bmp"
+SNAPSHOTU               BITMAP                  "res\\sanpshotB.bmp"
+SNAPSHOTD               BITMAP                  "res\\sanpshotC.bmp"
+IMAGESAVEF              BITMAP                  "res\\SaveA.bmp"
+IMAGESAVEU              BITMAP                  "res\\SaveB.bmp"
+IMAGESAVED              BITMAP                  "res\\SaveC.bmp"
+RAWPAGED                BITMAP                  "res\\browsed1.bmp"
+RAWPAGEF                BITMAP                  "res\\browsef1.bmp"
+RAWPAGEU                BITMAP                  "res\\browseu1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGEVIEWER_FRAME DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Image Viewer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_IMAGEVIEWER_VIEW DIALOGEX 0, 0, 316, 181
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_IMAGEVIEWER_BAR DIALOGEX 0, 0, 398, 23
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BUT1,142,4,17,15,BS_BITMAP | BS_CENTER | BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "",IDC_BUT2,162,4,17,15,BS_BITMAP | BS_CENTER | BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "",IDC_BUT3,182,4,17,15,BS_BITMAP | BS_CENTER | BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "",IDC_BUT4,203,4,17,15,BS_BITMAP | BS_CENTER | BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "",IDC_BUT5,223,4,17,15,BS_BITMAP | BS_CENTER | BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "",IDC_BUT6,243,4,17,15,BS_BITMAP | BS_CENTER | BS_VCENTER | BS_FLAT
+END
+
+IDD_SETTING DIALOGEX 0, 0, 639, 414
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_GAMMARATION,254,18,40,14,ES_AUTOHSCROLL
+    CONTROL         "Gamma Enable",IDC_CHECK_GAMMAENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,49,63,10
+    CONTROL         "Reverse Gamma",IDC_CHECK_REVERSEGAMMA,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,207,63,68,10
+    EDITTEXT        IDC_EDIT_G0,203,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G1,229,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G2,255,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G3,282,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G4,203,98,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G5,229,98,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G6,255,98,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G7,282,98,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G8,203,114,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G9,229,114,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G10,255,114,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G11,282,114,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G12,203,130,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G13,229,130,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G14,255,130,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G15,282,130,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G16,203,146,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G17,229,146,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G18,255,146,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G19,282,146,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G20,203,162,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G21,229,162,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G22,255,162,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G23,282,162,21,14,ES_AUTOHSCROLL
+    CONTROL         "RGB Gamma",IDC_CHECK_RGBGAMMA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,205,184,55,10
+    EDITTEXT        IDC_EDIT_BRIGHTNESS,62,211,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_BRIGHTNESS,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,91,211,58,15
+    EDITTEXT        IDC_EDIT_CONTRAST,62,230,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_CONTRAST,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,91,230,58,15
+    EDITTEXT        IDC_EDIT_SATURATION,219,209,26,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_SATURATION,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,249,208,58,15
+    EDITTEXT        IDC_EDIT_HUE,219,229,26,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_HUE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,249,229,58,15
+    EDITTEXT        IDC_EDIT_MATRIXY_Y1,24,279,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_Y2,74,279,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_Y3,123,279,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_U1,24,298,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_U2,74,298,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_U3,123,298,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_V1,24,316,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_V2,74,316,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIX_V3,123,316,46,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MATRIXY_OY1,200,280,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OY2,239,280,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OY3,278,280,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OU1,200,299,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OU2,239,299,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OU3,278,299,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OV1,200,317,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OV2,239,317,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATRIX_OV3,278,317,30,14,ES_AUTOHSCROLL
+    CONTROL         "YUV",IDC_RADIO_YUV,"Button",BS_AUTORADIOBUTTON,15,353,26,10
+    CONTROL         "Y",IDC_RADIO_Y,"Button",BS_AUTORADIOBUTTON,47,353,20,10
+    CONTROL         "U",IDC_RADIO_U,"Button",BS_AUTORADIOBUTTON,69,353,21,10
+    CONTROL         "V",IDC_RADIO_V,"Button",BS_AUTORADIOBUTTON,97,353,20,10
+    EDITTEXT        IDC_EDIT_RGAIN,376,20,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_RGAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,19,52,15
+    EDITTEXT        IDC_EDIT_GGAIN,376,37,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_GGAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,36,52,15
+    EDITTEXT        IDC_EDIT_BGAIN,376,54,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_BGAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,53,52,15
+    EDITTEXT        IDC_EDIT_ROFFSET,376,74,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_ROFFSET,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,73,52,15
+    EDITTEXT        IDC_EDIT_GOFFSET,376,91,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_GOFFSET,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,90,52,15
+    EDITTEXT        IDC_EDIT_BOFFSET,376,108,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_BOFFSET,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,107,52,15
+    EDITTEXT        IDC_EDIT_UVGAIN1,376,144,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_UVGAIN1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,142,52,15
+    EDITTEXT        IDC_EDIT_UVGAIN2,376,161,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_UVGAIN2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,158,52,15
+    EDITTEXT        IDC_EDIT_UVGAIN3,376,178,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_UVGAIN3,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,175,52,15
+    EDITTEXT        IDC_EDIT_UVGAIN4,376,195,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_UVGAIN4,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,406,192,52,15
+    EDITTEXT        IDC_EDIT_EDGEGAIN,378,250,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_EDGEGAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,408,249,52,15
+    EDITTEXT        IDC_EDIT_EDGETHD,378,268,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_EDGETHD,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,408,268,52,15
+    PUSHBUTTON      "Reset",IDC_BUT_RESET,499,389,50,14,WS_DISABLED
+    PUSHBUTTON      "Set",IDC_BUT_SET,563,384,62,23
+    LTEXT           "Gamma",IDC_STATIC,211,20,24,8
+    GROUPBOX        "Gamma Setting",IDC_STATIC_GAMMASETTING,7,3,309,194
+    GROUPBOX        "Gamma Value",IDC_STATIC_GAMMAVALUE,196,10,116,25
+    GROUPBOX        "Out Gamma",IDC_STATIC_OUTGAMMA,196,38,116,142
+    GROUPBOX        "Y Gamma",IDC_STATIC,7,199,147,52
+    GROUPBOX        "Saturation && Hue",IDC_STATIC,163,199,153,51
+    GROUPBOX        "YUV Display Channel",IDC_STATIC,7,343,116,25
+    LTEXT           "Brightness",IDC_STATIC,13,211,34,8
+    LTEXT           "Contrast",IDC_STATIC,13,234,29,8
+    LTEXT           "Saturation",IDC_STATIC,173,211,34,8
+    LTEXT           "Hue",IDC_STATIC,174,231,14,8
+    GROUPBOX        "Input Color Matrix",IDC_STATIC,7,255,166,85
+    LTEXT           "Y",IDC_STATIC,14,283,8,8
+    LTEXT           "U",IDC_STATIC,14,301,8,8
+    LTEXT           "V",IDC_STATIC,14,318,8,8
+    LTEXT           "R",IDC_STATIC,42,265,8,8
+    LTEXT           "G",IDC_STATIC,94,265,8,8
+    LTEXT           "B",IDC_STATIC,143,265,8,8
+    GROUPBOX        "Output Color Matrix",IDC_STATIC,180,255,136,85
+    LTEXT           "Y",IDC_STATIC,188,285,8,8
+    LTEXT           "U",IDC_STATIC,188,302,8,8
+    LTEXT           "V",IDC_STATIC,188,319,8,8
+    LTEXT           "R",IDC_STATIC,213,266,8,8
+    LTEXT           "G",IDC_STATIC,251,266,8,8
+    LTEXT           "B",IDC_STATIC,291,266,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,174,298,6,3
+    GROUPBOX        "Raw Data Process",IDC_STATIC,326,3,141,128
+    LTEXT           "RGain",IDC_STATIC,335,22,20,8
+    LTEXT           "GGain",IDC_STATIC,335,39,20,8
+    LTEXT           "BGain",IDC_STATIC,335,57,19,8
+    LTEXT           "ROffset",IDC_STATIC,335,77,26,8
+    LTEXT           "GOffset",IDC_STATIC,335,94,26,8
+    LTEXT           "BOffset",IDC_STATIC,335,111,26,8
+    LTEXT           "YEdgeGain",IDC_STATIC,335,253,31,8
+    LTEXT           "UVGain1",IDC_STATIC,335,148,28,8
+    LTEXT           "UVGain2",IDC_STATIC,335,164,28,8
+    LTEXT           "UVGain3",IDC_STATIC,335,181,28,8
+    LTEXT           "UVGain4",IDC_STATIC,335,199,28,8
+    LTEXT           "YEdgeThd",IDC_STATIC,335,271,33,8
+    CONTROL         "YEdgeEnhanceEn",IDC_CHECK_YEDGEENHANCEEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,335,324,71,10
+    LTEXT           "YEdgeHB",IDC_STATIC,335,290,41,8
+    EDITTEXT        IDC_EDIT_EDGEYTHD,378,287,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_EDGEYTHD,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,408,286,52,15
+    GROUPBOX        "Definition",IDC_STATIC,327,239,139,100
+    GROUPBOX        "UVGain",IDC_STATIC,325,135,142,97
+    CONTROL         "UVGainEn",IDC_CHECK_UVGAINEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,335,215,47,10
+    GROUPBOX        "Color Corpping(Killer)",IDC_STATIC,473,3,155,54
+    LTEXT           "YHB",IDC_STATIC,482,20,14,8
+    EDITTEXT        IDC_EDIT_YHB,505,18,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_YHB,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,539,17,52,15
+    LTEXT           "YLB",IDC_STATIC,482,38,12,8
+    EDITTEXT        IDC_EDIT_YLB,505,35,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_YLB,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,539,34,52,15
+    CONTROL         "YUVProcEnable",IDC_CHECK_YUVPROCENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,476,109,64,10
+    LTEXT           "Àµ√˜:",IDC_STATIC,473,272,20,8
+    LTEXT           "≤ªπ¥—°""YUVProcEnable""—°øÚ, AP∂À∂‘…Ë±∏∂À ‰»ÎµƒRawÕº∆¨≤ª◊ˆ”ÎYUV”–πÿµƒ¥¶¿Ì(∞¸¿®YGammaCurve, ColorMatrix, UVGain, Definition), “‘±„”⁄»∑»œ…Ë±∏∂À ‰»ÎµƒRawÕº∆¨ «∑Ò’˝»∑.",IDC_STATIC,475,288,142,44
+    GROUPBOX        "Negative Implementation Type",IDC_STATIC,473,62,155,33
+    CONTROL         "Reverse RGBGamma",IDC_RADIO_NEGATIVEIMPTYPE_REVERSERGBGAMMA,
+                    "Button",BS_AUTORADIOBUTTON,480,76,81,10
+    CONTROL         "255-RGBData",IDC_RADIO_NEGATIVEIMPTYPE_255SUBRGBDATA,
+                    "Button",BS_AUTORADIOBUTTON,566,76,59,10
+    LTEXT           "YEdgeLB",IDC_STATIC,335,309,41,8
+    EDITTEXT        IDC_EDIT_EDGEYTHD2,378,306,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_EDGEYTHD2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,408,305,52,15
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Color Balance",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Exit",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Brightness",IDC_STATIC,14,19,34,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGEVIEWER_FRAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_IMAGEVIEWER_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_IMAGEVIEWER_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 391
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 632
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 407
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Czech resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CSY)
+#ifdef _WIN32
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "N·stroj ke skenov·nÌ obr·zk˘"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Typ filmu",IDC_STATIC,7,3,185,23
+    CONTROL         "Negativ",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Diapozitiv",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,47,10
+    CONTROL         "»ernobÌl˝",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,46,10
+    GROUPBOX        "RozliöenÌ",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "StandardnÌ",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,51,10
+    CONTROL         "InterpolovanÈ",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,61,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Sken",IDC_STATIC,549,59,16,8
+    GROUPBOX        "éivÈ zobrazenÌ",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Sken",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Odstranit",IDC_STATIC,594,59,31,8
+    LTEXT           "P¯evr·tit",IDC_STATIC,544,132,29,8
+    LTEXT           "OtoËit",IDC_STATIC,595,132,20,8
+    LTEXT           "Uloûit",IDC_STATIC,547,203,18,8
+    LTEXT           "UkonËit",IDC_STATIC,598,203,24,8
+    LTEXT           "Uloûit jako:",IDC_STATIC,358,233,36,8
+    GROUPBOX        "Obr·zky k†uloûenÌ",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "⁄prava barvy/jasu",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "N·stroj ke skenov·nÌ obr·zk˘"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Barva",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "UkonËit",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Jas",IDC_STATIC,14,19,12,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "N·stroj ke skenov·nÌ obr·zk˘"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "P¯ipraveno"
+    IDS_PICTUREPROC         "Zpracov·v·nÌ obr·zku, Ëekejte prosÌmÖ"
+    IDS_SNAPSHOT            "Skenov·nÌ, Ëekejte prosÌmÖ"
+    IDS_SAVEIMAGE           "Ukl·d·nÌ obr·zku, Ëekejte prosÌmÖ"
+    IDS_PICTUREPROCFNI      "Zpracov·v·nÌ obr·zku dokonËeno!"
+END
+
+#endif    // Czech resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Hungarian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HUN)
+#ifdef _WIN32
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "KÈpolvasÛ eszkˆz"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Film tÌpusa",IDC_STATIC,7,3,188,22
+    CONTROL         "NegatÌv",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Dia",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,26,10
+    CONTROL         "Fekete-fehÈr",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,58,10
+    GROUPBOX        "Felbont·s",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpol·lt",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,49,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Beolvas·s",IDC_STATIC,541,59,33,8
+    GROUPBOX        "…lıkÈpnÈzet",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Beolvas·s",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "TˆrlÈs",IDC_STATIC,595,59,20,8
+    LTEXT           "T¸krˆzÈs",IDC_STATIC,543,132,30,8
+    LTEXT           "Forgat·s",IDC_STATIC,593,132,30,8
+    LTEXT           "MentÈs",IDC_STATIC,545,203,24,8
+    LTEXT           "KilÈpÈs",IDC_STATIC,598,203,23,8
+    LTEXT           "MentÈs az al·bbi helyre:",IDC_STATIC,358,233,79,8
+    GROUPBOX        "A kˆvetkezı kÈpeket menti el",IDC_STATIC,7,277,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "SzÌn/fÈnyerı be·llÌt·sa",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "KÈpolvasÛ eszkˆz"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "SzÌnegyens˙ly",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "KilÈpÈs",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "FÈnyerı",IDC_STATIC,14,19,28,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "KÈpolvasÛ eszkˆz"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "KÈszenlÈt"
+    IDS_PICTUREPROC         "KÈpfeldolgoz·s folyamatban, kÈrem v·rjonÖ"
+    IDS_SNAPSHOT            "Beolvas·s folyamatban, kÈrem v·rjon..."
+    IDS_SAVEIMAGE           "KÈp mentÈse folyamatban, kÈrem v·rjonÖ"
+    IDS_PICTUREPROCFNI      "A feldolgoz·s vÈget Èrt."
+END
+
+#endif    // Hungarian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "NarzÍdzie do skanowania obrazÛw"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Typ filmu",IDC_STATIC,7,3,193,21
+    CONTROL         "Negatyw",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
+    CONTROL         "Przezrocze",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,51,10
+    CONTROL         "Czarno-bia≥y",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,57,10
+    GROUPBOX        "RozdzielczoúÊ",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpolowany",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,63,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Skanuj",IDC_STATIC,541,59,22,8
+    GROUPBOX        "Widok na øywo",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Skan",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "UsuÒ",IDC_STATIC,594,59,17,8
+    LTEXT           "Lustrzane",IDC_STATIC,545,132,32,8
+    LTEXT           "ObrÛÊ",IDC_STATIC,595,132,20,8
+    LTEXT           "Zapisz",IDC_STATIC,547,203,21,8
+    LTEXT           "ZakoÒcz",IDC_STATIC,599,203,27,8
+    LTEXT           "Zapisz jako:",IDC_STATIC,358,233,39,8
+    GROUPBOX        "Obrazy do zapisania",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Ustawienia kolorÛw/jasnoúci",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+    LTEXT           "odbicie",IDC_STATIC,545,140,23,8
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "NarzÍdzie do skanowania obrazÛw"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Kolor",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "ZakoÒcz",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "JasnoúÊ",IDC_STATIC,14,19,26,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "NarzÍdzie do skanowania obrazÛw"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Gotowy"
+    IDS_PICTUREPROC         "Obliczanie danych obrazu, proszÍ czekaÊÖ"
+    IDS_SNAPSHOT            "Skanowanie, proszÍ czekaÊÖ"
+    IDS_SAVEIMAGE           "Zapisywanie obrazu, proszÍ czekaÊÖ"
+    IDS_PICTUREPROCFNI      "Obliczanie zakoÒczone!"
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Romanian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
+#ifdef _WIN32
+LANGUAGE LANG_ROMANIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Aplica˛ie scanare imagini"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Tip film",IDC_STATIC,7,3,188,23
+    CONTROL         "Negativ",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Diapozitiv",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,47,10
+    CONTROL         "Alb-negru",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,47,10
+    GROUPBOX        "Rezolu˛ie",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpolat",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,48,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scanare",IDC_STATIC,544,59,27,8
+    GROUPBOX        "Prezentare live",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Imagine scanat„",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "™tergere",IDC_STATIC,594,59,29,8
+    LTEXT           "Reflectare",IDC_STATIC,541,132,34,8
+    LTEXT           "Rotire",IDC_STATIC,597,132,20,8
+    LTEXT           "Salvare",IDC_STATIC,547,203,25,8
+    LTEXT           "Ie∫ire",IDC_STATIC,599,203,19,8
+    LTEXT           "Salvare ca:",IDC_STATIC,358,233,37,8
+    GROUPBOX        "Imaginile de salvat",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Reglarea culorii/luminozit„˛ii",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Aplica˛ie scanare imagini"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Culoare",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Ie∫ire",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Luminozitate",IDC_STATIC,14,19,41,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Aplica˛ie scanare imagini"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Preg„tit"
+    IDS_PICTUREPROC         "Se proceseaz„ imaginea, v„ rug„m a?tepta?i....."
+    IDS_SNAPSHOT            "Se scaneaz„, v„ rug„m a?tepta?i....."
+    IDS_SAVEIMAGE           "Se salveaz„ imaginea, v„ rug„m a?tepta?i....."
+    IDS_PICTUREPROCFNI      "S-a Óncheiat procesarea imaginii!"
+END
+
+#endif    // Romanian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Slovak resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SKY)
+#ifdef _WIN32
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "N·stroj na skenovanie obr·zkov\n"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Typ filmu",IDC_STATIC,7,3,184,23
+    CONTROL         "NegatÌv",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "DiapozitÌv",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,47,10
+    CONTROL         "»iernobiely",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,51,10
+    GROUPBOX        "RozlÌöenie",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Norm·lne",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,46,10
+    CONTROL         "InterpolovanÈ",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,61,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "Delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Skenovaù",IDC_STATIC,541,59,32,8
+    GROUPBOX        "éiv˝ n·hæad",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Sken",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Vymazaù",IDC_STATIC,594,59,29,8
+    LTEXT           "Preklopiù",IDC_STATIC,544,132,29,8
+    LTEXT           "OtoËiù",IDC_STATIC,595,132,21,8
+    LTEXT           "Uloûiù",IDC_STATIC,547,203,19,8
+    LTEXT           "Koniec",IDC_STATIC,598,203,22,8
+    LTEXT           "Uloûiù do prieËinka:",IDC_STATIC,358,233,62,8
+    GROUPBOX        "Obr·zky na uloûenie",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Nastavenie farby/jasu",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "N·stroj na skenovanie obr·zkov"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Farba",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Koniec",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Jas",IDC_STATIC,14,19,12,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "N·stroj na skenovanie obr·zkov"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "PripravenÈ"
+    IDS_PICTUREPROC         "Sprac˙vam obr·zok, Ëakajte......"
+    IDS_SNAPSHOT            "Skenujem, Ëakajte......"
+    IDS_SAVEIMAGE           "Uklad·m obr·zok, Ëakajte......"
+    IDS_PICTUREPROCFNI      "Spracovanie obr·zka skonËenÈ!"
+END
+
+#endif    // Slovak resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Slovenian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)
+#ifdef _WIN32
+LANGUAGE LANG_SLOVENIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Orodje za optiËno zajemanje slik"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Tip filma",IDC_STATIC,7,3,170,23
+    CONTROL         "Negativ",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Diapozitiv",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,47,10
+    CONTROL         "»rno-bel",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,43,10
+    GROUPBOX        "LoËljivost",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standardna",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,53,10
+    CONTROL         "Interpolirana",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,57,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "OptiËno zajemi",IDC_STATIC,536,59,48,8
+    GROUPBOX        "Predogled v ûivo",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Zajeta slika",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Izbriöi",IDC_STATIC,596,59,20,8
+    LTEXT           "Zrcali",IDC_STATIC,547,132,18,8
+    LTEXT           "Zavrti",IDC_STATIC,596,132,20,8
+    LTEXT           "Shrani",IDC_STATIC,547,203,21,8
+    LTEXT           "Izhod",IDC_STATIC,599,203,19,8
+    LTEXT           "Shrani v:",IDC_STATIC,358,233,30,8
+    GROUPBOX        "Slike za shranjevanje",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Nastavitev barv/svetlosti",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Orodje za optiËno zajemanje slik"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Barve",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Izhod",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Svetlost",IDC_STATIC,14,19,27,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Orodje za optiËno zajemanje slik"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Pripravljen"
+    IDS_PICTUREPROC         "Obdelujem sliko, prosimo poËakajte ..."
+    IDS_SNAPSHOT            "Zajemam sliko, prosimo poËakajte ..."
+    IDS_SAVEIMAGE           "Shranjujem sliko, prosimo poËakajte ..."
+    IDS_PICTUREPROCFNI      "Obdelava zakljuËena!"
+END
+
+#endif    // Slovenian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Bulgarian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_BGR)
+#ifdef _WIN32
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "»ÌÒÚÛÏÂÌÚ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "“ËÔ ÙËÎÏ",IDC_STATIC,7,3,189,23
+    CONTROL         "ÕÂ„‡ÚË‚",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,44,10
+    CONTROL         "ƒË‡ÔÓÁËÚË‚",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,57,10
+    CONTROL         "◊ÂÌÓ/¡ˇÎÓ",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,55,10
+    GROUPBOX        "–ÂÁÓÎ˛ˆËˇ",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "—Ú‡Ì‰‡ÚÌ‡",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,57,10
+    CONTROL         "»ÌÚÂÔÓÎË‡Ì‡",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,69,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "·ÛÚÓÌ",IDC_STATIC,544,59,21,8
+    GROUPBOX        "Live ËÁ„ÎÂ‰",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "·ÛÚÓÌ",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "»ÁÚË‚‡ÌÂ",IDC_STATIC,590,59,37,8
+    LTEXT           "Œ„ÎÂ‰‡ÎÂÌ",IDC_STATIC,541,132,38,8
+    LTEXT           "«‡‚˙Ú‡ÌÂ",IDC_STATIC,590,132,38,8
+    LTEXT           "«‡Ô‡ÏÂÚˇ‚‡ÌÂ",IDC_STATIC,535,203,49,8
+    LTEXT           "»ÁıÓ‰",IDC_STATIC,598,203,22,8
+    LTEXT           "«‡Ô‡ÏÂÚˇ‚‡ÌÂ ‚:",IDC_STATIC,358,233,58,8
+    GROUPBOX        "—ÌËÏÍË Á‡ Á‡Ô‡ÏÂÚˇ‚‡ÌÂ",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Õ‡ÒÚÓÈÍ‡ Ì‡ ˆ‚ÂÚ‡/ˇÍÓÒÚÚ‡",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+    LTEXT           "Ó·‡Á",IDC_STATIC,549,141,20,8
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "»ÌÒÚÛÏÂÌÚ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "÷‚ˇÚ",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "»ÁıÓ‰",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "ﬂÍÓÒÚ",IDC_STATIC,14,19,25,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "»ÌÒÚÛÏÂÌÚ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "¬ „ÓÚÓ‚ÌÓÒÚ"
+    IDS_PICTUREPROC         "Œ·‡·ÓÚÍ‡ Ì‡ ÒÌËÏÍ‡Ú‡, ÏÓÎˇ ËÁ˜‡Í‡ÈÚÂ......"
+    IDS_SNAPSHOT            "—Í‡ÌË‡ÌÂ, ÏÓÎˇ ËÁ˜‡Í‡ÈÚÂ......"
+    IDS_SAVEIMAGE           "«‡Ô‡ÏÂÚˇ‚‡ÌÂ Ì‡ ÒÌËÏÍ‡Ú‡, ÏÓÎˇ ËÁ˜‡Í‡ÈÚÂ......"
+    IDS_PICTUREPROCFNI      "Œ·‡·ÓÚÍ‡ Á‡‚˙¯ÂÌ‡!"
+END
+
+#endif    // Bulgarian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Filmtyp",IDC_STATIC,7,3,191,22
+    CONTROL         "Negativ",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Dia",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,26,10
+    CONTROL         "Schwarz/Weiﬂ",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,61,10
+    GROUPBOX        "Auflˆsung",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpoliert",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,52,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scan",IDC_STATIC,541,59,16,8
+    GROUPBOX        "Live Ansicht",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Immagine scansionata",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Lˆschen",IDC_STATIC,594,59,27,8
+    LTEXT           "Spiegeln",IDC_STATIC,545,132,28,8
+    LTEXT           "Drehen",IDC_STATIC,595,132,24,8
+    LTEXT           "Speichern",IDC_STATIC,547,203,32,8
+    LTEXT           "Beenden",IDC_STATIC,597,203,29,8
+    LTEXT           "Speichern unter:",IDC_STATIC,358,233,54,8
+    GROUPBOX        "Zu speichernde Bilder",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,357,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,201,28,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Farb-/Helligkeitseinstellung",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Farbe",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Beenden",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Farbe",IDC_STATIC,84,34,20,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Helligkeit",IDC_STATIC,14,19,29,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Bereit"
+    IDS_PICTUREPROC         "Berechne Bilddaten, bitte wartenÖ"
+    IDS_SNAPSHOT            "Scanne, bitte wartenÖ"
+    IDS_SAVEIMAGE           "Speichere Bild, bitte wartenÖ"
+    IDS_PICTUREPROCFNI      "Berechnung beendet!"
+END
+
+#endif    // German (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Herramienta de escaneo de im·genes"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Tipo de pelÌcula",IDC_STATIC,7,3,191,22
+    CONTROL         "Negativo",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
+    CONTROL         "Diapositiva",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,51,10
+    CONTROL         "B/N",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,27,10
+    GROUPBOX        "ResoluciÛn",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Est·ndar",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpolado",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,53,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Escanear",IDC_STATIC,541,59,30,8
+    GROUPBOX        "Vista en directo",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Imagen escaneada",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Eliminar",IDC_STATIC,594,59,25,8
+    LTEXT           "Reflejar",IDC_STATIC,545,132,26,8
+    LTEXT           "Rotar",IDC_STATIC,595,132,19,8
+    LTEXT           "Guardar",IDC_STATIC,547,203,27,8
+    LTEXT           "Salir",IDC_STATIC,599,203,14,8
+    LTEXT           "Guardar en:",IDC_STATIC,358,233,40,8
+    GROUPBOX        "Im·genes finales para guardar",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,357,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,201,28,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Ajuste del color/brillo",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Herramienta de escaneo de im·genes"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Balance de colores",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Salir",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Brillo",IDC_STATIC,14,19,16,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Herramienta de escaneo de im·genes"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Preparado"
+    IDS_PICTUREPROC         "Procesando la imagen. Por favor, espere..."
+    IDS_SNAPSHOT            "Escaneando. Por favor, espere..."
+    IDS_SAVEIMAGE           "Guardando la imagen. Por favor, espere..."
+    IDS_PICTUREPROCFNI      "°Se ha terminado de procesar la imagen!"
+END
+
+#endif    // Spanish (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Strumento di scansione immagini"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Tipo de pelÌcula",IDC_STATIC,7,2,194,24
+    CONTROL         "Negativo",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
+    CONTROL         "Diapositiva",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,51,10
+    CONTROL         "Bianco e nero",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,59,10
+    GROUPBOX        "Risoluzione",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpolato",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,52,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scansione",IDC_STATIC,541,59,33,8
+    GROUPBOX        "Immagine dal vivo",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Immagine scansionata",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Cancella",IDC_STATIC,594,59,28,8
+    LTEXT           "Ribalta",IDC_STATIC,545,132,23,8
+    LTEXT           "Ruota",IDC_STATIC,595,132,20,8
+    LTEXT           "Salva",IDC_STATIC,547,203,18,8
+    LTEXT           "Esci",IDC_STATIC,599,203,13,8
+    LTEXT           "Salva con nome:",IDC_STATIC,358,233,54,8
+    GROUPBOX        "Immagini da salvare",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Impostazione del colore/della luminosit‡",IDC_BUT_COLORBRIGHTNESSAJUST,371,178,133,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Strumento di scansione immagini"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Colore",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Esci",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Luminosit‡",IDC_STATIC,14,19,34,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Strumento di scansione immagini"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Pronto"
+    IDS_PICTUREPROC         "Elaborazione dell'immagine in corso, attendereÖ"
+    IDS_SNAPSHOT            "Scansione in corso, attendereÖ"
+    IDS_SAVEIMAGE           "Salvataggio dell'immagine in corso, attendereÖ"
+    IDS_PICTUREPROCFNI      "Elaborazione terminata!"
+END
+
+#endif    // Italian (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Type film",IDC_STATIC,7,3,170,23
+    CONTROL         "Negatief",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,43,10
+    CONTROL         "Dia",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,26,10
+    CONTROL         "Zwart-wit",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,47,10
+    GROUPBOX        "Resolutie",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standaard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,49,10
+    CONTROL         "GeÔnterpoleerd",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,63,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scan",IDC_STATIC,541,59,16,8
+    GROUPBOX        "Live weergave",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Scan",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Wissen",IDC_STATIC,594,59,24,8
+    LTEXT           "Spiegelen",IDC_STATIC,545,132,32,8
+    LTEXT           "Draaien",IDC_STATIC,595,132,26,8
+    LTEXT           "Opslaan",IDC_STATIC,547,203,27,8
+    LTEXT           "Afsluiten",IDC_STATIC,599,203,29,8
+    LTEXT           "Opslaan als:",IDC_STATIC,358,233,40,8
+    GROUPBOX        "Afbeeldingen om op te slaan",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Kleur/helderheid aanpassen",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Kleur",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Afsluiten",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Helderheid",IDC_STATIC,14,19,35,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Gereed"
+    IDS_PICTUREPROC         "Afbeelding wordt bewerkt, even geduld..."
+    IDS_SNAPSHOT            "Bezig met scannen, even geduld..."
+    IDS_SAVEIMAGE           "Afbeelding wordt opgeslagen, even geduld..."
+    IDS_PICTUREPROCFNI      "Bewerking voltooid!"
+END
+
+#endif    // Dutch (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Ferramenta de digitalizaÁ„o de imagem"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Tipo de pelÌcula fotogr·fica",IDC_STATIC,7,3,196,24
+    CONTROL         "Negativo",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
+    CONTROL         "Diapositivo",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,51,10
+    CONTROL         "Preto e branco",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,63,10
+    GROUPBOX        "ResoluÁ„o",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Padr„o",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,39,10
+    CONTROL         "Interpolada",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,53,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Digitalizar",IDC_STATIC,541,59,32,8
+    GROUPBOX        "VisualizaÁ„o ao vivo",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Imagem digitalizada",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Eliminar",IDC_STATIC,594,59,25,8
+    LTEXT           "Espelhar",IDC_STATIC,545,132,28,8
+    LTEXT           "Rodar",IDC_STATIC,595,132,20,8
+    LTEXT           "Guardar",IDC_STATIC,547,203,27,8
+    LTEXT           "Terminar",IDC_STATIC,599,203,29,8
+    LTEXT           "Guardar em:",IDC_STATIC,358,233,41,8
+    GROUPBOX        "Imagens para guardar",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Ajuste de cor/brilho",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Ferramenta de digitalizaÁ„o de imagem"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Cor",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Terminar",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Brilho",IDC_STATIC,14,19,18,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Ferramenta de digitalizaÁ„o de imagem"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Pronto"
+    IDS_PICTUREPROC         "A processar imagem, aguardeÖ"
+    IDS_SNAPSHOT            "A digitalizar, aguardeÖ"
+    IDS_SAVEIMAGE           "A guardar imagem, aguardeÖ"
+    IDS_PICTUREPROCFNI      "Processamento de imagem terminado!"
+END
+
+#endif    // Portuguese (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Swedish (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SVE)
+#ifdef _WIN32
+LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Filmtyp",IDC_STATIC,7,3,170,23
+    CONTROL         "Negativ",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Diabild ",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,39,10
+    CONTROL         "Svartvit",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,41,10
+    GROUPBOX        "Upplˆsning",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpolerat",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,55,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scan",IDC_STATIC,541,59,16,8
+    GROUPBOX        "Livebild",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Inskannad bild",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Ta bort",IDC_STATIC,594,59,24,8
+    LTEXT           "Spegla",IDC_STATIC,545,132,22,8
+    LTEXT           "Rotera",IDC_STATIC,595,132,23,8
+    LTEXT           "Spara",IDC_STATIC,547,203,20,8
+    LTEXT           "Avsluta",IDC_STATIC,599,203,25,8
+    LTEXT           "Spara pÂ den h‰r platsen:",IDC_STATIC,358,233,84,8
+    GROUPBOX        "F‰rdiga bilder att spara",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      " Inst‰llning av f‰rg/ljusstyrka",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "F‰rgbalans",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Avsluta",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Ljusstyrka",IDC_STATIC,14,19,34,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Klart"
+    IDS_PICTUREPROC         "Bearbetar bilden, v‰ntaÖ.."
+    IDS_SNAPSHOT            "Skannar, v‰ntaÖ.."
+    IDS_SAVEIMAGE           "Sparar bilden, v‰ntaÖ.."
+    IDS_PICTUREPROCFNI      "Bearbetning av bilden klar!"
+END
+
+#endif    // Swedish (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Danish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
+#ifdef _WIN32
+LANGUAGE LANG_DANISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Filmtype",IDC_STATIC,7,3,179,23
+    CONTROL         "Negativ",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,41,10
+    CONTROL         "Dias",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,29,10
+    CONTROL         "Sort/hvid",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,45,10
+    GROUPBOX        "Opl¯sning",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpoleret",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,55,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scan",IDC_STATIC,541,59,16,8
+    GROUPBOX        "Live visning",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Scannet billede",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Slet",IDC_STATIC,594,59,13,8
+    LTEXT           "Spejlvend",IDC_STATIC,545,132,32,8
+    LTEXT           "Roter",IDC_STATIC,595,132,19,8
+    LTEXT           "Gem",IDC_STATIC,547,203,15,8
+    LTEXT           "Afslut",IDC_STATIC,599,203,20,8
+    LTEXT           "Gem som:",IDC_STATIC,358,233,32,8
+    GROUPBOX        "Billeder, der skal gemmes",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Indstilling af farve/lysstyrke",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Farve",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Afslut",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Lysstyrke",IDC_STATIC,14,19,32,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Klar"
+    IDS_PICTUREPROC         "Beregner billeddata, vent venligstÖ"
+    IDS_SNAPSHOT            "Scanner, vent venligstÖ"
+    IDS_SAVEIMAGE           "Gemmer billedet, vent venligstÖ"
+    IDS_PICTUREPROCFNI      "Beregning udf¯rt!"
+END
+
+#endif    // Danish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Image Scan Tool, Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Film Type",IDC_STATIC,7,3,170,23
+    CONTROL         "Negative",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
+    CONTROL         "Slide",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,31,10
+    CONTROL         "B && W",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,35,10
+    GROUPBOX        "Resolution",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Standard",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,45,10
+    CONTROL         "Interpolated",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,56,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Scan",IDC_STATIC,548,59,16,8
+    GROUPBOX        "Live View",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Scan",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Delete",IDC_STATIC,594,59,22,8
+    LTEXT           "Mirror",IDC_STATIC,545,132,20,8
+    LTEXT           "Rotate",IDC_STATIC,595,132,23,8
+    LTEXT           "Save",IDC_STATIC,547,203,17,8
+    LTEXT           "Exit",IDC_STATIC,599,203,13,8
+    LTEXT           "Save to this location:",IDC_STATIC,358,233,68,8
+    GROUPBOX        "Final images to save",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Color/Brightness Adjustment",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,4
+ PRODUCTVERSION 1,0,0,4
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "SONIX"
+            VALUE "FileDescription", "Video Camera application"
+            VALUE "FileVersion", "1.0.0.4"
+            VALUE "InternalName", "ImageScan.exe"
+            VALUE "LegalCopyright", "(c) <SONIX>.  All rights reserved."
+            VALUE "OriginalFilename", "ImageScan.exe"
+            VALUE "PrivateBuild", "20150615"
+            VALUE "ProductName", "ImageScan"
+            VALUE "ProductVersion", "1.0.0.4"
+            VALUE "SpecialBuild", "C2_5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Ready"
+    IDS_PICTUREPROC         "Processing image, please wait......"
+    IDS_SNAPSHOT            "Scanning, please wait......"
+    IDS_SAVEIMAGE           "Saving image, please wait......"
+    IDS_PICTUREPROCFNI      "Finished processing image!"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Finnish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+#ifdef _WIN32
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Filmin tyyppi",IDC_STATIC,7,3,189,23
+    CONTROL         "Negatiivi",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,43,10
+    CONTROL         "Dia",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,26,10
+    CONTROL         "Mustavalko",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,52,10
+    GROUPBOX        "Resoluutio",IDC_STATIC,350,3,179,23,WS_GROUP
+    CONTROL         "Normaali",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,43,10
+    CONTROL         "Interpoloitu",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,53,10
+    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
+    CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
+    CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
+    CONTROL         "imagesave",IDC_BUT_IMAGESAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,536,174,43,14
+    CONTROL         "exit",IDC_BUT_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,586,174,43,14
+    EDITTEXT        IDC_EDIT_IMAGESAVE,358,248,217,14,ES_AUTOHSCROLL
+    CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
+    LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
+    LTEXT           "Skannaa",IDC_STATIC,541,59,28,8
+    GROUPBOX        "Live-n‰kym‰",IDC_STATIC,7,28,339,236,BS_CENTER
+    GROUPBOX        "Skannaus",IDC_STATIC,350,28,180,131,BS_CENTER
+    CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
+    LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Poista",IDC_STATIC,594,59,20,8
+    LTEXT           "Peilaa",IDC_STATIC,545,132,20,8
+    LTEXT           "K‰‰nn‰",IDC_STATIC,595,132,25,8
+    LTEXT           "Tallenna",IDC_STATIC,544,203,28,8
+    LTEXT           "Lopeta",IDC_STATIC,597,203,23,8
+    LTEXT           "Tallenna nimell‰:",IDC_STATIC,358,233,54,8
+    GROUPBOX        "Tallennettavat kuvat",IDC_STATIC,7,268,621,65,BS_CENTER
+    GROUPBOX        "",IDC_STATIC_PHOTOSBACK,14,278,607,48,NOT WS_VISIBLE
+    CONTROL         "",IDC_PIC_LIST0,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,28,288,40,31
+    CONTROL         "",IDC_PIC_LIST1,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,70,288,40,31
+    CONTROL         "",IDC_PIC_LIST2,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,112,288,40,31
+    CONTROL         "",IDC_PIC_LIST3,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,154,288,40,31
+    CONTROL         "",IDC_PIC_LIST4,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,196,288,40,31
+    CONTROL         "",IDC_PIC_LIST5,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,238,288,40,31
+    CONTROL         "",IDC_PIC_LIST6,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,280,288,40,31
+    CONTROL         "",IDC_PIC_LIST7,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,322,288,40,31
+    CONTROL         "",IDC_PIC_LIST8,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,364,288,40,31
+    CONTROL         "",IDC_PIC_LIST9,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,406,288,40,31
+    CONTROL         "",IDC_PIC_LIST10,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,448,288,40,31
+    CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
+    LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "V‰rin-/kirkkaudens‰‰tˆ",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
+END
+
+IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Image Scan Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
+    EDITTEXT        IDC_EDIT_CBA_BRIGHTNESS,165,16,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_RGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,43,100,19
+    EDITTEXT        IDC_EDIT_CBA_RGAIN,165,50,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_GGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,65,100,19
+    EDITTEXT        IDC_EDIT_CBA_GGAIN,165,73,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
+    EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "V‰ritasapaino",IDC_STATIC,7,34,190,82
+    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Lopeta",IDC_BUT_EXIT,150,124,48,14
+    LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Kirkkaus",IDC_STATIC,14,19,27,8
+    LTEXT           "R",IDC_STATIC,24,52,8,8
+    LTEXT           "G",IDC_STATIC,24,71,8,8
+    LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_IMAGESCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 628
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_COLORBRIGHTNESSAJUSTMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
+    IDS_BAR_PROPERSIZE      "Proper size"
+    IDS_BAR_TRUESIZE        "True size"
+    IDS_BAR_LROTATE         "Left rotate"
+    IDS_BAR_RROTATE         "Rigth rotate"
+    IDS_BAR_HMIRROR         "Horizontal mirror"
+    IDS_BAR_VMIRROR         "Vertical mirror"
+    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
+    IDS_MAIN_BUT_DELETE     "Delete selected image"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BUT_IMAGESAVE  "Save all images"
+    IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
+    IDS_MAIN_BUT_RROTATE    "Right rotate"
+    IDS_MAIN_BUT_EXIT       "Exit"
+    IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
+    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
+    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_APTITLE             "Image Scan Tool"
+    IDS_TARGETDEVICEPID289  "6355"
+    IDS_TARGETDEVICEVID     "0c45"
+    IDS_TARGETDEVICEPID285  "6353"
+    IDS_NOTFINDTARGETDEVTEXT 
+                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+    IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
+    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_READY               "Valmis"
+    IDS_PICTUREPROC         "K‰sitell‰‰n kuvaa, odota..."
+    IDS_SNAPSHOT            "Skannataan, odota..."
+    IDS_SAVEIMAGE           "Tallennetaan kuvaa, odota..."
+    IDS_PICTUREPROCFNI      "Kuva k‰sitelty!"
+END
+
+#endif    // Finnish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\ImageScan.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

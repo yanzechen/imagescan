@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageScan", "ImageScan\ImageScan.vcxproj", "{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}.Debug|Win32.Build.0 = Debug|Win32
+		{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}.Debug|Win32.Deploy.0 = Debug|Win32
+		{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}.Release|Win32.ActiveCfg = Release|Win32
+		{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

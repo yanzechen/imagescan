@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColorBrightnessAjustment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatConvertArithmetic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRotateFlipRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageScanDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewerBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewerFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PicConver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RAW8ToRGB24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RawPars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RawUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadWriteASIC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleGrabberCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBarCtrlwithProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StillSampleGrabberCallback2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDsUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnerApLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorBrightnessAjustment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCapture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatConvertArithmetic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRotateFlipRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageScanDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewerBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewerFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PicConver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RAW8ToRGB24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RawPars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RawUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadWriteASIC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleGrabberCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBarCtrlwithProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StillSampleGrabberCallback2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDsUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="replaceqedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BGain1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BGain2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brightness1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brightness2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\browsed1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\browsef1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\browseu1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\browsex1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DeleteA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DeleteB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DeleteC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DeleteD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExitA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExitB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExitC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExitD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FOldA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FOldB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FOldC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FOldD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GGain1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GGain2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ImageScan.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MirrorA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MirrorB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MirrorC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MirrorD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RGain1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RGain2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RotateA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RotateB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RotateC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RotateD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sanpshotA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sanpshotB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sanpshotC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sanpshotD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sanpshotX.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SaveA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SaveB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SaveC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SaveD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UI-bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageScan.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ImageScan.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

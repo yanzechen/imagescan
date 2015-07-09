@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{302DADED-D3DD-4DCB-AAB1-1E730FC33F86}</ProjectGuid>
+    <RootNamespace>ImageScan</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses;D:\Program Files\Microsoft SDKs\Windows\v7.0\Include;D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\common;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;D:\Program Files (x86)\Microsoft DirectX 9.0 SDK (Summer 2004)\Include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\Program Files\Microsoft SDKs\Windows\v7.0\Lib;D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses\Debug;D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses\Release;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;D:\Program Files (x86)\Microsoft DirectX 9.0 SDK (Summer 2004)\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <IncludePath>D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses;D:\Program Files\Microsoft SDKs\Windows\v7.0\Include;D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\common;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;D:\Program Files (x86)\Microsoft DirectX 9.0 SDK (Summer 2004)\Include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\Program Files\Microsoft SDKs\Windows\v7.0\Lib;D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses\Debug;D:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses\Release;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;D:\Program Files (x86)\Microsoft DirectX 9.0 SDK (Summer 2004)\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_WIN32_WINNT=0x600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>StaticBurneraplib.lib;strmbasd.lib;winmm.lib;quartz.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_WIN32_WINNT=0x600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>StaticBurneraplib.lib;strmbase.lib;winmm.lib;quartz.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <EnableUAC>false</EnableUAC>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ColorBrightnessAjustment.cpp" />
+    <ClCompile Include="DXCapture.cpp" />
+    <ClCompile Include="FormatConvertArithmetic.cpp" />
+    <ClCompile Include="ImageRotateFlipRecord.cpp" />
+    <ClCompile Include="ImageScan.cpp" />
+    <ClCompile Include="ImageScanDlg.cpp" />
+    <ClCompile Include="ImageViewerBar.cpp" />
+    <ClCompile Include="ImageViewerFrame.cpp" />
+    <ClCompile Include="ImageViewerView.cpp" />
+    <ClCompile Include="PicConver.cpp" />
+    <ClCompile Include="RAW8ToRGB24.cpp" />
+    <ClCompile Include="RawPars.cpp" />
+    <ClCompile Include="RawUtil.cpp" />
+    <ClCompile Include="ReadWriteASIC.cpp" />
+    <ClCompile Include="SampleGrabberCallback.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="StatusBarCtrlwithProgressBar.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StillSampleGrabberCallback2.cpp" />
+    <ClCompile Include="UDsUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseFunc.h" />
+    <ClInclude Include="BurnerApLib.h" />
+    <ClInclude Include="ColorBrightnessAjustment.h" />
+    <ClInclude Include="DXCapture.h" />
+    <ClInclude Include="FormatConvertArithmetic.h" />
+    <ClInclude Include="ImageRotateFlipRecord.h" />
+    <ClInclude Include="ImageScan.h" />
+    <ClInclude Include="ImageScanDlg.h" />
+    <ClInclude Include="ImageViewerBar.h" />
+    <ClInclude Include="ImageViewerFrame.h" />
+    <ClInclude Include="ImageViewerView.h" />
+    <ClInclude Include="PicConver.h" />
+    <ClInclude Include="RAW8ToRGB24.h" />
+    <ClInclude Include="RawPars.h" />
+    <ClInclude Include="RawUtil.h" />
+    <ClInclude Include="ReadWriteASIC.h" />
+    <ClInclude Include="replaceqedit.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SampleGrabberCallback.h" />
+    <ClInclude Include="Setting.h" />
+    <ClInclude Include="StatusBarCtrlwithProgressBar.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StillSampleGrabberCallback2.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UDsUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BGain1.ico" />
+    <Image Include="res\BGain2.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap8.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\Brightness1.ico" />
+    <Image Include="res\Brightness2.ico" />
+    <Image Include="res\browsed1.bmp" />
+    <Image Include="res\browsef1.bmp" />
+    <Image Include="res\browseu1.bmp" />
+    <Image Include="res\browsex1.bmp" />
+    <Image Include="res\DeleteA.bmp" />
+    <Image Include="res\DeleteB.bmp" />
+    <Image Include="res\DeleteC.bmp" />
+    <Image Include="res\DeleteD.bmp" />
+    <Image Include="res\ExitA.bmp" />
+    <Image Include="res\ExitB.bmp" />
+    <Image Include="res\ExitC.bmp" />
+    <Image Include="res\ExitD.bmp" />
+    <Image Include="res\FOldA.bmp" />
+    <Image Include="res\FOldB.bmp" />
+    <Image Include="res\FOldC.bmp" />
+    <Image Include="res\FOldD.bmp" />
+    <Image Include="res\GGain1.ico" />
+    <Image Include="res\GGain2.ico" />
+    <Image Include="res\ImageScan.ico" />
+    <Image Include="res\MirrorA.bmp" />
+    <Image Include="res\MirrorB.bmp" />
+    <Image Include="res\MirrorC.bmp" />
+    <Image Include="res\MirrorD.bmp" />
+    <Image Include="res\RGain1.ico" />
+    <Image Include="res\RGain2.ico" />
+    <Image Include="res\RotateA.bmp" />
+    <Image Include="res\RotateB.bmp" />
+    <Image Include="res\RotateC.bmp" />
+    <Image Include="res\RotateD.bmp" />
+    <Image Include="res\sanpshotA.bmp" />
+    <Image Include="res\sanpshotB.bmp" />
+    <Image Include="res\sanpshotC.bmp" />
+    <Image Include="res\sanpshotD.bmp" />
+    <Image Include="res\sanpshotX.bmp" />
+    <Image Include="res\SaveA.bmp" />
+    <Image Include="res\SaveB.bmp" />
+    <Image Include="res\SaveC.bmp" />
+    <Image Include="res\SaveD.bmp" />
+    <Image Include="res\UI-bottom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageScan.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ImageScan.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ImageScan.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
