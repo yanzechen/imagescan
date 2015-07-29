@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ generated include file.
-// Used by ImageScan.rc
+// Microsoft Visual C++ 生成的包含文件。
+// 供 ImageScan.rc 使用
 //
 #define IDM_ABOUTBOX                    0x0010
 #define IDD_ABOUTBOX                    100
@@ -46,6 +46,10 @@
 #define IDD_IMAGEVIEWER_VIEW            132
 #define IDS_PICTUREPROCFNI              132
 #define IDD_IMAGEVIEWER_BAR             133
+#define IDS_STRING133                   133
+#define IDS_STRING134                   134
+#define IDS_STRING135                   135
+#define IDS_STRING136                   136
 #define IDB_BITMAP1                     141
 #define IDB_BITMAP2                     142
 #define IDD_SETTING                     142

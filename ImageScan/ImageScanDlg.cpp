@@ -415,7 +415,9 @@ void CImageScanDlg::Init_VideoDevice()
 	// 视频设备不存在
 	if (!bFindVideoDevice)
 	{
-		MessageBox(_T("No video device!"), NULL, MB_OK | MB_ICONINFORMATION);
+		CString str;
+		str.LoadString(IDS_STRING134);
+		MessageBox(str, NULL, MB_OK | MB_ICONINFORMATION);
 		UIChangeOperate(UICOT_NoVideoDevice);
 		return;
 	}
@@ -521,7 +523,9 @@ void CImageScanDlg::OnBnClickedButSnapshot()
 	// TODO: Add your control notification handler code here 
 	if (STOREIMAGEMAXNUM == m_iStoredImgNum)
 	{
-		MessageBox(_T("Image list space is full, please save image to disk!"), NULL, MB_OK | MB_ICONINFORMATION);
+		CString str;
+		str.LoadString(IDS_IMAGE_FULL);
+		MessageBox(str, NULL, MB_OK | MB_ICONINFORMATION);
 		return;
 	}
 	ASSERT(m_iStoredImgNum < STOREIMAGEMAXNUM);
@@ -696,7 +700,9 @@ void CImageScanDlg::OnBnClickedButImagesave()
 
 	if (0 == m_iStoredImgNum)
 	{
-		MessageBox(_T("No image for saving!"), NULL, MB_OK | MB_ICONINFORMATION);
+		CString str;
+		str.LoadString(IDS_STRING135);
+		MessageBox(str, NULL, MB_OK | MB_ICONINFORMATION);
 		return;
 	}
 
@@ -940,7 +946,9 @@ void CImageScanDlg::OnBnClickedButExit()
 void CImageScanDlg::OnBnClickedButSetsavepath()
 {
 	// TODO: Add your control notification handler code here
-	CString strPath = BrowseDirectory(m_hWnd, _T("Please select a directory for saving images!"));
+	CString str;
+	str.LoadString(IDS_STRING133);
+	CString strPath = BrowseDirectory(m_hWnd, str);
 
 	if (!strPath.IsEmpty())
 	{

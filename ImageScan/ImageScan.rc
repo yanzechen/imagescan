@@ -16,13 +16,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Chinese (P.R.C.) resources
+// ÷–Œƒ(ºÚÃÂ£¨÷–π˙) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
-#ifdef _WIN32
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 #pragma code_page(936)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -334,7 +332,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGEVIEWER_FRAME, DIALOG
     BEGIN
@@ -378,18 +376,292 @@ BEGIN
 END
 #endif    // APSTUDIO_INVOKED
 
-#endif    // Chinese (P.R.C.) resources
+#endif    // ÷–Œƒ(ºÚÃÂ£¨÷–π˙) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Czech resources
+// Ω›øÀ”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CSY)
-#ifdef _WIN32
+LANGUAGE LANG_CZECH, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "O†N·stroji ke skenov·nÌ obr·zk˘"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Verze 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Ω›øÀ”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// –Ÿ—¿¿˚”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HUN)
+LANGUAGE LANG_HUNGARIAN, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A kÈpolvasÛ eszkˆzrıl"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "VerziÛsz·m: 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Szerzıi jogi vÈdelem (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // –Ÿ—¿¿˚”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ≤®¿º”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Informacje o Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Wersja 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // ≤®¿º”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ¬ﬁ¬Ìƒ·—«”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
+LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Despre aplica?ia scanare imagine"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Versiunea 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // ¬ﬁ¬Ìƒ·—«”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Àπ¬Â∑•øÀ”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SKY)
+LANGUAGE LANG_SLOVAK, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "O N·stroji na skenovanie obr·zkov"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Verzia 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Àπ¬Â∑•øÀ”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Àπ¬ÂŒƒƒ·—«”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)
+LANGUAGE LANG_SLOVENIAN, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "O orodju za optiËno zajemanje slik"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "RazliËica 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Àπ¬ÂŒƒƒ·—«”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Ω›øÀ”Ô(Ω›øÀπ≤∫Õπ˙) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CSY)
 LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
 #pragma code_page(1250)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -446,7 +718,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "⁄prava barvy/jasu",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -465,7 +737,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Barva",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Z·kladnÌ nastavenÌ",IDC_BUT_CBA_DEF,65,124,75,14
     PUSHBUTTON      "UkonËit",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Jas",IDC_STATIC,14,19,12,8
@@ -481,7 +753,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -507,9 +779,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&O†N·stroji ke skenov·nÌ obr·zk˘..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -517,53 +789,54 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "N·stroj ke skenov·nÌ obr·zk˘"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Vybrat sloûku pro ukl·d·nÌ obr·zk˘"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Skener nereaguje!"
     IDS_APTITLE             "N·stroj ke skenov·nÌ obr·zk˘"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Nalezen skener bez funkcÌ ""Typ filmu"" a ""⁄prava barvy/jasu"". P¯ejete si tento p¯Ìstroj pouûÌt?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "PamÏù je pln·., Uloûte prosÌm obr·zky na pevn˝ disk.!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "P¯ipraveno"
     IDS_PICTUREPROC         "Zpracov·v·nÌ obr·zku, Ëekejte prosÌmÖ"
     IDS_SNAPSHOT            "Skenov·nÌ, Ëekejte prosÌmÖ"
     IDS_SAVEIMAGE           "Ukl·d·nÌ obr·zku, Ëekejte prosÌmÖ"
     IDS_PICTUREPROCFNI      "Zpracov·v·nÌ obr·zku dokonËeno!"
+    IDS_STRING133           "Vybrat sloûku pro ukl·d·nÌ obr·zk˘"
+    IDS_STRING134           "Skener nenalezen!"
+    IDS_STRING135           "é·dn˝ obr·zek k uloûenÌ!"
 END
 
-#endif    // Czech resources
+#endif    // Ω›øÀ”Ô(Ω›øÀπ≤∫Õπ˙) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Hungarian resources
+// –Ÿ—¿¿˚”Ô(–Ÿ—¿¿˚) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HUN)
-#ifdef _WIN32
 LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
 #pragma code_page(1250)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -620,7 +893,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "SzÌn/fÈnyerı be·llÌt·sa",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -639,7 +912,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "SzÌnegyens˙ly",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Alapbe·llÌt·sok",IDC_BUT_CBA_DEF,78,124,62,14
     PUSHBUTTON      "KilÈpÈs",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "FÈnyerı",IDC_STATIC,14,19,28,8
@@ -655,7 +928,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -681,9 +954,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&A kÈpolvasÛ eszkˆzrıl..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -696,48 +969,49 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Adja meg a kÈpek mentÈsÈnek mapp·j·t"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
-    IDS_APTITLE             "Image Scan Tool"
+    IDS_OPENVIDEDEVFAIL_INFO "A szkenner nem  v·laszol!"
+    IDS_APTITLE             "KÈpolvasÛ eszkˆz"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "A rendszer a ""FilmtÌpus kiv·laszt·sa"" Ès a ""SzÌn-/FÈnyerıbe·llÌt·s"" funkciÛkat nem t·mogatÛ szkennert tal·lt. KÌv·nja ezt az eszkˆzt haszn·lni?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Megtelt a t·rhely. KÈrem, mentse a kÈpeket a merevlemezre."
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "KÈszenlÈt"
     IDS_PICTUREPROC         "KÈpfeldolgoz·s folyamatban, kÈrem v·rjonÖ"
     IDS_SNAPSHOT            "Beolvas·s folyamatban, kÈrem v·rjon..."
     IDS_SAVEIMAGE           "KÈp mentÈse folyamatban, kÈrem v·rjonÖ"
     IDS_PICTUREPROCFNI      "A feldolgoz·s vÈget Èrt."
+    IDS_STRING133           "V·lassza ki a kÈpek mentÈsÈnek helyÈt"
+    IDS_STRING134           "Nem tal·lhatÛ szkenner!"
+    IDS_STRING135           "Nem ·ll rendelkezÈsre kÈp a mentÈshez!"
 END
 
-#endif    // Hungarian resources
+#endif    // –Ÿ—¿¿˚”Ô(–Ÿ—¿¿˚) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Polish resources
+// ≤®¿º”Ô(≤®¿º) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
-#ifdef _WIN32
 LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
 #pragma code_page(1250)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -747,7 +1021,7 @@ LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
 IDD_IMAGESCAN_DIALOG DIALOGEX 0, 0, 635, 350
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
-CAPTION "NarzÍdzie do skanowania obrazÛw"
+CAPTION "Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     GROUPBOX        "Typ filmu",IDC_STATIC,7,3,193,21
@@ -794,7 +1068,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Ustawienia kolorÛw/jasnoúci",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
     LTEXT           "odbicie",IDC_STATIC,545,140,23,8
 END
@@ -802,7 +1076,7 @@ END
 IDD_COLORBRIGHTNESSAJUSTMENT DIALOGEX 0, 0, 206, 145
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_TOOLWINDOW
-CAPTION "NarzÍdzie do skanowania obrazÛw"
+CAPTION "Image Scan Tool"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BRIHTNESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,10,100,19
@@ -814,7 +1088,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Kolor",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Ustawienia podstawowe",IDC_BUT_CBA_DEF,50,124,90,14
     PUSHBUTTON      "ZakoÒcz",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "JasnoúÊ",IDC_STATIC,14,19,26,8
@@ -830,7 +1104,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -856,9 +1130,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Informacje o Image Scan Tool..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -871,48 +1145,49 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Okreúl folder do zapisu obrazÛw"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
-    IDS_APTITLE             "NarzÍdzie do skanowania obrazÛw"
+    IDS_OPENVIDEDEVFAIL_INFO "Skaner nie reaguje!"
+    IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Znaleziono skaner bez funkcji ÑTyp filmuî i ÑUstawienia kolorÛw/jasnoúciî. Czy chcesz uøywaÊ tego urzπdzenia?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Brak miejsca w pamiÍci, Zapisz obrazy na dysku twardym"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Gotowy"
     IDS_PICTUREPROC         "Obliczanie danych obrazu, proszÍ czekaÊÖ"
     IDS_SNAPSHOT            "Skanowanie, proszÍ czekaÊÖ"
     IDS_SAVEIMAGE           "Zapisywanie obrazu, proszÍ czekaÊÖ"
     IDS_PICTUREPROCFNI      "Obliczanie zakoÒczone!"
+    IDS_STRING133           "Wybierz folder do zapisania obrazÛw"
+    IDS_STRING134           "Nie znaleziono skanera!"
+    IDS_STRING135           "Brak obrazÛw do zapisu!"
 END
 
-#endif    // Polish resources
+#endif    // ≤®¿º”Ô(≤®¿º) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Romanian resources
+// ¬ﬁ¬Ìƒ·—«”Ô(¬ﬁ¬Ìƒ·—«) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
-#ifdef _WIN32
 LANGUAGE LANG_ROMANIAN, SUBLANG_DEFAULT
 #pragma code_page(1250)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -969,7 +1244,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Reglarea culorii/luminozit„˛ii",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -988,7 +1263,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Culoare",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Set„ri de baz„",IDC_BUT_CBA_DEF,77,124,63,14
     PUSHBUTTON      "Ie∫ire",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Luminozitate",IDC_STATIC,14,19,41,8
@@ -1004,7 +1279,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -1030,9 +1305,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Despre aplica?ia scanare imagine..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -1040,53 +1315,54 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "Aplica˛ie scanare imagini"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Stabili˛i directorul pentru imaginile salvate"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Scannerul nu reac˛ioneaz„!"
     IDS_APTITLE             "Aplica˛ie scanare imagini"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "A fost g„sit scanner f„r„ func˛iile ""Tip film"" ∫i ""Reglare culoare/luminozitate"". Dori˛i s„ utiliza˛i acest aparat?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Spa˛iul de stocare este plin, V„ rug„m s„ salva˛i imaginile pe disc.!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Preg„tit"
     IDS_PICTUREPROC         "Se proceseaz„ imaginea, v„ rug„m a?tepta?i....."
     IDS_SNAPSHOT            "Se scaneaz„, v„ rug„m a?tepta?i....."
     IDS_SAVEIMAGE           "Se salveaz„ imaginea, v„ rug„m a?tepta?i....."
     IDS_PICTUREPROCFNI      "S-a Óncheiat procesarea imaginii!"
+    IDS_STRING133           "Selectare director pentru salvarea imaginilor"
+    IDS_STRING134           "Scannerul nu a fost g„sit!"
+    IDS_STRING135           "Nu exist„ imagine care s„ fie salvat„!"
 END
 
-#endif    // Romanian resources
+#endif    // ¬ﬁ¬Ìƒ·—«”Ô(¬ﬁ¬Ìƒ·—«) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Slovak resources
+// Àπ¬Â∑•øÀ”Ô(Àπ¬Â∑•øÀ) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SKY)
-#ifdef _WIN32
 LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
 #pragma code_page(1250)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1143,7 +1419,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Nastavenie farby/jasu",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -1162,7 +1438,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Farba",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Z·kladnÈ nastavenia",IDC_BUT_CBA_DEF,65,124,75,14
     PUSHBUTTON      "Koniec",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Jas",IDC_STATIC,14,19,12,8
@@ -1178,7 +1454,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -1204,9 +1480,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&O N·stroji na skenovanie obr·zkov..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -1214,53 +1490,54 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "N·stroj na skenovanie obr·zkov"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "UrËiù prieËinok na uloûenÈ obr·zky"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Skener nereaguje!"
     IDS_APTITLE             "N·stroj na skenovanie obr·zkov"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "N·jden˝ skener bez funkciÌ ÑTyp filmuì a†ÑNastavenie farby/jasuì. Chcete pouûiù tento prÌstroj?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Ukladacie miesto je zaplnenÈ, Uloûte obr·zky na pevn˝ disk!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "PripravenÈ"
     IDS_PICTUREPROC         "Sprac˙vam obr·zok, Ëakajte......"
     IDS_SNAPSHOT            "Skenujem, Ëakajte......"
     IDS_SAVEIMAGE           "Uklad·m obr·zok, Ëakajte......"
     IDS_PICTUREPROCFNI      "Spracovanie obr·zka skonËenÈ!"
+    IDS_STRING133           "Zvoæte prieËinok na uloûenie obr·zkov"
+    IDS_STRING134           "Skener nen·jden˝!"
+    IDS_STRING135           "éiadny obr·zok na uloûenie!"
 END
 
-#endif    // Slovak resources
+#endif    // Àπ¬Â∑•øÀ”Ô(Àπ¬Â∑•øÀ) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Slovenian resources
+// Àπ¬ÂŒƒƒ·—«”Ô(Àπ¬ÂŒƒƒ·—«) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)
-#ifdef _WIN32
 LANGUAGE LANG_SLOVENIAN, SUBLANG_DEFAULT
 #pragma code_page(1250)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1317,7 +1594,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Nastavitev barv/svetlosti",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -1336,7 +1613,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Barve",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Privzeto",IDC_BUT_CBA_DEF,92,124,48,14
     PUSHBUTTON      "Izhod",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Svetlost",IDC_STATIC,14,19,27,8
@@ -1352,7 +1629,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -1378,9 +1655,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&O orodju za optiËno zajemanje slik..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -1388,53 +1665,100 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "Orodje za optiËno zajemanje slik"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Izbira mape za shranjevanje slik"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Napaka pri odpiranju optiËnega bralnika!"
     IDS_APTITLE             "Orodje za optiËno zajemanje slik"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "OptiËnega bralnika ni bilo mogoËe najti! Ali ûelite uporabiti napravo, ki ne podpira funkcij ""Tip filma"" in ""Nastavitev barv/svetlosti""?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Pomnilnik je poln, Prosimo shranite slike na trdi disk!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Pripravljen"
     IDS_PICTUREPROC         "Obdelujem sliko, prosimo poËakajte ..."
     IDS_SNAPSHOT            "Zajemam sliko, prosimo poËakajte ..."
     IDS_SAVEIMAGE           "Shranjujem sliko, prosimo poËakajte ..."
     IDS_PICTUREPROCFNI      "Obdelava zakljuËena!"
+    IDS_STRING133           "Izberite mapo za shranjevanje slik"
+    IDS_STRING134           "OptiËnega bralnika ni bilo mogoËe najti!"
+    IDS_STRING135           "Ni slike za shranjevanje!"
 END
 
-#endif    // Slovenian resources
+#endif    // Àπ¬ÂŒƒƒ·—«”Ô(Àπ¬ÂŒƒƒ·—«) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Bulgarian resources
+// ±£º”¿˚—«”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_BGR)
-#ifdef _WIN32
+LANGUAGE LANG_BULGARIAN, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "«‡ ËÌÒÚÛÏÂÌÚ‡ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "¬ÂÒËˇ 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "¿‚ÚÓÒÍÓ Ô‡‚Ó (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // ±£º”¿˚—«”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ±£º”¿˚—«”Ô(±£º”¿˚—«) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_BGR)
 LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
 #pragma code_page(1251)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1454,7 +1778,7 @@ BEGIN
     GROUPBOX        "–ÂÁÓÎ˛ˆËˇ",IDC_STATIC,350,3,179,23,WS_GROUP
     CONTROL         "—Ú‡Ì‰‡ÚÌ‡",IDC_RADIO_DPI0,"Button",BS_AUTORADIOBUTTON,361,13,57,10
     CONTROL         "»ÌÚÂÔÓÎË‡Ì‡",IDC_RADIO_DPI1,"Button",BS_AUTORADIOBUTTON,455,13,69,10
-    CONTROL         "snapshot",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
+    CONTROL         "—Í‡ÌË‡ÌÂ",IDC_BUT_SNAPSHOT,"Button",BS_OWNERDRAW | WS_GROUP | WS_TABSTOP,535,25,43,14
     CONTROL         "delete",IDC_BUT_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,28,43,14
     CONTROL         "hmirror",IDC_BUT_HMIRROR,"Button",BS_OWNERDRAW | WS_TABSTOP,536,103,43,14
     CONTROL         "rrotate",IDC_BUT_RROTATE,"Button",BS_OWNERDRAW | WS_TABSTOP,586,103,43,14
@@ -1464,9 +1788,9 @@ BEGIN
     CONTROL         "browse",IDC_BUT_SETSAVEPATH,"Button",BS_OWNERDRAW | WS_TABSTOP,586,242,43,14
     LTEXT           "Film Type",IDC_STATIC,61,7,31,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
-    LTEXT           "·ÛÚÓÌ",IDC_STATIC,544,59,21,8
+    LTEXT           "—Í‡ÌË‡ÌÂ",IDC_STATIC,544,59,38,8
     GROUPBOX        "Live ËÁ„ÎÂ‰",IDC_STATIC,7,28,339,236,BS_CENTER
-    GROUPBOX        "·ÛÚÓÌ",IDC_STATIC,350,28,180,131,BS_CENTER
+    GROUPBOX        "—Í‡ÌË‡ÌÂ",IDC_STATIC,350,28,180,131,BS_CENTER
     CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
     LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "»ÁÚË‚‡ÌÂ",IDC_STATIC,590,59,37,8
@@ -1491,7 +1815,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Õ‡ÒÚÓÈÍ‡ Ì‡ ˆ‚ÂÚ‡/ˇÍÓÒÚÚ‡",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
     LTEXT           "Ó·‡Á",IDC_STATIC,549,141,20,8
 END
@@ -1511,7 +1835,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "÷‚ˇÚ",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "ŒÒÌÓ‚ÌË Ì‡ÒÚÓÈÍË",IDC_BUT_CBA_DEF,62,124,78,14
     PUSHBUTTON      "»ÁıÓ‰",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "ﬂÍÓÒÚ",IDC_STATIC,14,19,25,8
@@ -1527,7 +1851,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -1553,9 +1877,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&«‡ ËÌÒÚÛÏÂÌÚ‡ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -1563,53 +1887,100 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "»ÌÒÚÛÏÂÌÚ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "ŒÔÂ‰ÂÎˇÌÂ Ì‡ Ô‡ÔÍ‡ Á‡ Á‡Ô‡ÏÂÚˇ‚‡ÌÂ Ì‡ ÒÌËÏÍËÚÂ"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "—ÍÂÌÂ˙Ú ÌÂ Â‡„Ë‡!"
     IDS_APTITLE             "»ÌÒÚÛÏÂÌÚ Á‡ ÒÍ‡ÌË‡ÌÂ Ì‡ ÒÌËÏÍË"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "ŒÚÍËÚ Â ÒÍÂÌÂ ·ÂÁ ÙÛÌÍˆËËÚÂ ""“ËÔ ÙËÎÏ"" Ë ""Õ‡ÒÚÓÈÍ‡ Á‡ ˆ‚ÂÚ‡/ˇÍÓÒÚÚ‡"". ∆ÂÎ‡ÂÚÂ ÎË ‰‡ ËÁÔÓÎÁ‚‡ÚÂ ÚÓÁË ÛÂ‰?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "œ‡ÏÂÚÚ‡ Â Ô˙ÎÌ‡, ÃÓÎˇ Á‡Ô‡ÏÂÚÂÚÂ ÒÌËÏÍËÚÂ Ì‡ Ú‚˙‰Ëˇ ‰ËÒÍ!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "¬ „ÓÚÓ‚ÌÓÒÚ"
     IDS_PICTUREPROC         "Œ·‡·ÓÚÍ‡ Ì‡ ÒÌËÏÍ‡Ú‡, ÏÓÎˇ ËÁ˜‡Í‡ÈÚÂ......"
     IDS_SNAPSHOT            "—Í‡ÌË‡ÌÂ, ÏÓÎˇ ËÁ˜‡Í‡ÈÚÂ......"
     IDS_SAVEIMAGE           "«‡Ô‡ÏÂÚˇ‚‡ÌÂ Ì‡ ÒÌËÏÍ‡Ú‡, ÏÓÎˇ ËÁ˜‡Í‡ÈÚÂ......"
     IDS_PICTUREPROCFNI      "Œ·‡·ÓÚÍ‡ Á‡‚˙¯ÂÌ‡!"
+    IDS_STRING133           "»Á·Ó Ì‡ Ô‡ÔÍ‡ Á‡ Á‡Ô‡ÏÂÚˇ‚‡ÌÂ Ì‡ ÒÌËÏÍËÚÂ"
+    IDS_STRING134           "—ÍÂÌÂ˙Ú ÌÂ Â ÓÚÍËÚ!"
+    IDS_STRING135           "ÕˇÏ‡ ÒÌËÏÍ‡ Á‡ Á‡Ô‡ÏÂÚˇ‚‡ÌÂ!"
 END
 
-#endif    // Bulgarian resources
+#endif    // ±£º”¿˚—«”Ô(±£º”¿˚—«) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// German (Neutral) resources
+// µ§¬Û”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
+LANGUAGE LANG_DANISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Via Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // µ§¬Û”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// µ¬”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
-#ifdef _WIN32
 LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1641,7 +2012,7 @@ BEGIN
     LTEXT           "Resolution",IDC_STATIC,416,7,34,8,NOT WS_VISIBLE | WS_DISABLED | NOT WS_GROUP
     LTEXT           "Scan",IDC_STATIC,541,59,16,8
     GROUPBOX        "Live Ansicht",IDC_STATIC,7,28,339,236,BS_CENTER
-    GROUPBOX        "Immagine scansionata",IDC_STATIC,350,28,180,131,BS_CENTER
+    GROUPBOX        "Scan",IDC_STATIC,350,28,180,131,BS_CENTER
     CONTROL         "",IDC_PIC_SNPSHOTPREVIEW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | WS_BORDER,354,39,172,115,WS_EX_STATICEDGE
     LTEXT           "Scan",IDC_STATIC,459,28,16,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Lˆschen",IDC_STATIC,594,59,27,8
@@ -1666,7 +2037,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,357,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,201,28,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Farb-/Helligkeitseinstellung",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -1685,13 +2056,24 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Farbe",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Grundeinstellungen",IDC_BUT_CBA_DEF,68,124,72,14
     PUSHBUTTON      "Beenden",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Farbe",IDC_STATIC,84,34,20,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Helligkeit",IDC_STATIC,14,19,29,8
     LTEXT           "R",IDC_STATIC,24,52,8,8
     LTEXT           "G",IDC_STATIC,24,71,8,8
     LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "‹ber Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Version 1.0.0.4",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
 
 
@@ -1701,7 +2083,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -1718,6 +2100,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
     END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -1727,9 +2117,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&‹ber Image Scan Tool..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -1742,48 +2132,49 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Ordner f¸r gespeicherte Bilder festlegen"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Scanner reagiert nicht!"
     IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Scanner ohne die Funktionen ""Filmtyp"" und ""Farb-/Helligkeitseinstellung"" gefunden. Wollen Sie dieses Ger‰t verwenden?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Speicherplatz ist voll, Bitte die Bilder auf Festplatte abspeichern"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Bereit"
     IDS_PICTUREPROC         "Berechne Bilddaten, bitte wartenÖ"
     IDS_SNAPSHOT            "Scanne, bitte wartenÖ"
     IDS_SAVEIMAGE           "Speichere Bild, bitte wartenÖ"
     IDS_PICTUREPROCFNI      "Berechnung beendet!"
+    IDS_STRING133           "Ordner zum Speichern der Bilder ausw‰hlen"
+    IDS_STRING134           "Scanner nicht gefunden!"
+    IDS_STRING135           "Kein Bild zum Speichern!"
 END
 
-#endif    // German (Neutral) resources
+#endif    // µ¬”Ô resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Spanish (Neutral) resources
+// Œ˜∞‡—¿”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
-#ifdef _WIN32
 LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1840,7 +2231,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,357,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,201,28,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Ajuste del color/brillo",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -1859,13 +2250,24 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Balance de colores",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "ConfiguraciÛn por defecto",IDC_BUT_CBA_DEF,49,124,91,14
     PUSHBUTTON      "Salir",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Brillo",IDC_STATIC,14,19,16,8
     LTEXT           "R",IDC_STATIC,24,52,8,8
     LTEXT           "G",IDC_STATIC,24,71,8,8
     LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de la herramienta de escaneo de im·genes"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "VersiÛn 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
 
 
@@ -1875,7 +2277,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -1892,6 +2294,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
     END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -1901,9 +2311,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Acerca de la herramienta de escaneo de im·genes..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -1911,53 +2321,100 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "Herramienta de escaneo de im·genes"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Establecer carpeta para guardar las im·genes"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Error al abrir el esc·ner."
     IDS_APTITLE             "Herramienta de escaneo de im·genes"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "El esc·ner no se ha encontrado. øDesea utilizar otro esc·ner que no admita las funciones de ""Ajuste del color/brillo"" y ""Tipo de pelÌcula""?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "No hay espacio libre, Guarde las im·genes en el disco duro!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Preparado"
     IDS_PICTUREPROC         "Procesando la imagen. Por favor, espere..."
     IDS_SNAPSHOT            "Escaneando. Por favor, espere..."
     IDS_SAVEIMAGE           "Guardando la imagen. Por favor, espere..."
     IDS_PICTUREPROCFNI      "°Se ha terminado de procesar la imagen!"
+    IDS_STRING133           "Seleccione una carpeta para guardar las im·genes"
+    IDS_STRING134           "Ning˙n esc·ner."
+    IDS_STRING135           "Ninguna imagen que guardar."
 END
 
-#endif    // Spanish (Neutral) resources
+#endif    // Œ˜∞‡—¿”Ô resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Italian (Neutral) resources
+// ∑“¿º”Ô resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+LANGUAGE LANG_FINNISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tietoja Image Scan Tool -ohjelmasta"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Versio 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // ∑“¿º”Ô resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// “‚¥Û¿˚”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
-#ifdef _WIN32
 LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1970,7 +2427,7 @@ EXSTYLE WS_EX_APPWINDOW
 CAPTION "Strumento di scansione immagini"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    GROUPBOX        "Tipo de pelÌcula",IDC_STATIC,7,2,194,24
+    GROUPBOX        "Tipo pelÌcula",IDC_STATIC,7,2,194,24
     CONTROL         "Negativo",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
     CONTROL         "Diapositiva",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,51,10
     CONTROL         "Bianco e nero",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,59,10
@@ -2014,7 +2471,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Impostazione del colore/della luminosit‡",IDC_BUT_COLORBRIGHTNESSAJUST,371,178,133,14
 END
 
@@ -2042,6 +2499,17 @@ BEGIN
     LTEXT           "B",IDC_STATIC,24,92,8,8
 END
 
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Informazioni sullo strumento di scansione immagini"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Versione 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2049,7 +2517,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -2066,6 +2534,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
     END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -2075,9 +2551,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Informazioni sullo strumento di scansione immagini..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -2085,53 +2561,54 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "Strumento di scansione immagini"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Definire la cartella per le immagini salvate"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Lo scanner non reagisce!"
     IDS_APTITLE             "Strumento di scansione immagini"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Trovato scanner senza le funzioni ""Tipo di pellicola"" e ""Impostazione del colore/della luminosit‡"". Si vuole utilizzare questo dispositivo?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Memoria piena, Salva le immagini sul disco fisso"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Pronto"
     IDS_PICTUREPROC         "Elaborazione dell'immagine in corso, attendereÖ"
     IDS_SNAPSHOT            "Scansione in corso, attendereÖ"
     IDS_SAVEIMAGE           "Salvataggio dell'immagine in corso, attendereÖ"
     IDS_PICTUREPROCFNI      "Elaborazione terminata!"
+    IDS_STRING133           "Seleziona la cartella in cui salvare le immagini"
+    IDS_STRING134           "Scanner non trovato!"
+    IDS_STRING135           "Nessuna immagine da salvare!"
 END
 
-#endif    // Italian (Neutral) resources
+#endif    // “‚¥Û¿˚”Ô resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Dutch (Neutral) resources
+// ∫…¿º”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
-#ifdef _WIN32
 LANGUAGE LANG_DUTCH, SUBLANG_NEUTRAL
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2188,7 +2665,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Kleur/helderheid aanpassen",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -2207,13 +2684,24 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Kleur",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Basisinstellingen",IDC_BUT_CBA_DEF,82,124,58,14
     PUSHBUTTON      "Afsluiten",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Helderheid",IDC_STATIC,14,19,35,8
     LTEXT           "R",IDC_STATIC,24,52,8,8
     LTEXT           "G",IDC_STATIC,24,71,8,8
     LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Over Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Versie 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
 
 
@@ -2223,7 +2711,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -2240,6 +2728,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
     END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -2249,9 +2745,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Over Image Scan Tool..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -2264,48 +2760,49 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Map vastleggen om afbeeldingen in op te slaan"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Scanner reageert niet!"
     IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Scanner zonder de functies 'Type film' en 'Kleur/helderheid aanpassen' gevonden. Wilt u dit apparaat gebruiken?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Geen schijfruimte beschikbaar, Sla de afbeeldingen op de harde schijf op"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Gereed"
     IDS_PICTUREPROC         "Afbeelding wordt bewerkt, even geduld..."
     IDS_SNAPSHOT            "Bezig met scannen, even geduld..."
     IDS_SAVEIMAGE           "Afbeelding wordt opgeslagen, even geduld..."
     IDS_PICTUREPROCFNI      "Bewerking voltooid!"
+    IDS_STRING133           "Selecteer een map om de beelden in op te slaan"
+    IDS_STRING134           "Scanner niet gevonden!"
+    IDS_STRING135           "Geen afbeelding om op te slaan!"
 END
 
-#endif    // Dutch (Neutral) resources
+#endif    // ∫…¿º”Ô resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Portuguese (Neutral) resources
+// ∆œÃ——¿”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
-#ifdef _WIN32
 LANGUAGE LANG_PORTUGUESE, SUBLANG_NEUTRAL
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2362,7 +2859,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Ajuste de cor/brilho",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -2381,13 +2878,24 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Cor",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "PredefiniÁıes",IDC_BUT_CBA_DEF,82,124,58,14
     PUSHBUTTON      "Terminar",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Brilho",IDC_STATIC,14,19,18,8
     LTEXT           "R",IDC_STATIC,24,52,8,8
     LTEXT           "G",IDC_STATIC,24,71,8,8
     LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sobre a ferramenta de digitalizaÁ„o de imagem"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Vers„o 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
 
 
@@ -2397,7 +2905,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -2414,6 +2922,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
     END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -2423,9 +2939,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Sobre a ferramenta de digitalizaÁ„o de imagem..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -2433,53 +2949,55 @@ BEGIN
     IDS_BAR_RROTATE         "Rigth rotate"
     IDS_BAR_HMIRROR         "Horizontal mirror"
     IDS_BAR_VMIRROR         "Vertical mirror"
-    IDS_IMAGETMPDIR         "Image Scan Tool"
+    IDS_IMAGETMPDIR         "Ferramenta de digitalizaÁ„o de imagem"
     IDS_MAIN_BUT_SNAPSHOT   "Snapshot"
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH 
+                            "Definir a pasta de destino para guardar as imagens"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "O digitalizador n„o inicia."
     IDS_APTITLE             "Ferramenta de digitalizaÁ„o de imagem"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Foi detetado um digitalizador que poder· n„o suportar as funÁıes ""Tipo de pelÌcula fotogr·fica"" e ""Ajuste de cor/brilho"". Deseja utilizar este aparelho?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Sem espaÁo livre, Guarde a imagem no disco rÌgido!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Pronto"
     IDS_PICTUREPROC         "A processar imagem, aguardeÖ"
     IDS_SNAPSHOT            "A digitalizar, aguardeÖ"
     IDS_SAVEIMAGE           "A guardar imagem, aguardeÖ"
     IDS_PICTUREPROCFNI      "Processamento de imagem terminado!"
+    IDS_STRING133           "Selecionar a pasta de destino para guardar as imagens"
+    IDS_STRING134           "O digitalizador n„o foi detetado."
+    IDS_STRING135           "N„o existem imagens para guardar."
 END
 
-#endif    // Portuguese (Neutral) resources
+#endif    // ∆œÃ——¿”Ô resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Swedish (Neutral) resources
+// »µ‰”Ô resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SVE)
-#ifdef _WIN32
 LANGUAGE LANG_SWEDISH, SUBLANG_NEUTRAL
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2536,7 +3054,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      " Inst‰llning av f‰rg/ljusstyrka",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -2555,13 +3073,24 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "F‰rgbalans",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Grundinst‰llningar",IDC_BUT_CBA_DEF,77,124,63,14
     PUSHBUTTON      "Avsluta",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Ljusstyrka",IDC_STATIC,14,19,34,8
     LTEXT           "R",IDC_STATIC,24,52,8,8
     LTEXT           "G",IDC_STATIC,24,71,8,8
     LTEXT           "B",IDC_STATIC,24,92,8,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Om Image Scan Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
 
 
@@ -2571,7 +3100,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -2588,6 +3117,14 @@ BEGIN
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
     END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -2597,9 +3134,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Om Image Scan Tool..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -2612,48 +3149,49 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "V‰lj mapp fˆr sparade bilder"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Skannern reagerar inte!"
     IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Skanner utan funktionerna ""Filmtyp"" och ""F‰rg-/ljusstyrkeinst‰llning"" hittad. Vill du anv‰nda denna enhet?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Inget ledigt minnesutrymme, Spara bilderna pÂ hÂrddisken!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Klart"
     IDS_PICTUREPROC         "Bearbetar bilden, v‰ntaÖ.."
     IDS_SNAPSHOT            "Skannar, v‰ntaÖ.."
     IDS_SAVEIMAGE           "Sparar bilden, v‰ntaÖ.."
     IDS_PICTUREPROCFNI      "Bearbetning av bilden klar!"
+    IDS_STRING133           "V‰lj en katalog att spara bilderna i"
+    IDS_STRING134           "Ingen skanner hittades!"
+    IDS_STRING135           "Ingen bild att spara!"
 END
 
-#endif    // Swedish (Neutral) resources
+#endif    // »µ‰”Ô resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Danish resources
+// µ§¬Û”Ô(µ§¬Û) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
-#ifdef _WIN32
 LANGUAGE LANG_DANISH, SUBLANG_DEFAULT
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2710,7 +3248,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Indstilling af farve/lysstyrke",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -2729,7 +3267,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "Farve",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Standard",IDC_BUT_CBA_DEF,92,124,48,14
     PUSHBUTTON      "Afslut",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Lysstyrke",IDC_STATIC,14,19,32,8
@@ -2745,7 +3283,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -2771,9 +3309,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Via Image Scan Tool..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -2786,48 +3324,49 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Indstil mappe til gemte billeder"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Kunne ikke Âbne scanner!"
     IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Der er fundet en scanner, der ikke underst¯tter funktionerne ""Filmtype"" og ""Farve-/lysstyrkeindstilling"". Vil du bruge denne enhed?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Hukommelsespladsen er fuld, Gem billederne pÂ harddisken!"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Klar"
     IDS_PICTUREPROC         "Beregner billeddata, vent venligstÖ"
     IDS_SNAPSHOT            "Scanner, vent venligstÖ"
     IDS_SAVEIMAGE           "Gemmer billedet, vent venligstÖ"
     IDS_PICTUREPROCFNI      "Beregning udf¯rt!"
+    IDS_STRING133           "VÊlg en mappe, hvor billederne skal gemmes"
+    IDS_STRING134           "Ingen scanner fundet!"
+    IDS_STRING135           "Intet billede at gemme!"
 END
 
-#endif    // Danish resources
+#endif    // µ§¬Û”Ô(µ§¬Û) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// ”¢”Ô(√¿π˙) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2840,8 +3379,8 @@ CAPTION "About Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Image Scan Tool, Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
-    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    LTEXT           "Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
 
@@ -2895,7 +3434,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "Color/Brightness Adjustment",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -2906,7 +3445,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
@@ -2955,7 +3494,7 @@ BEGIN
             VALUE "InternalName", "ImageScan.exe"
             VALUE "LegalCopyright", "(c) <SONIX>.  All rights reserved."
             VALUE "OriginalFilename", "ImageScan.exe"
-            VALUE "PrivateBuild", "20150615"
+            VALUE "PrivateBuild", "20150729"
             VALUE "ProductName", "ImageScan"
             VALUE "ProductVersion", "1.0.0.4"
             VALUE "SpecialBuild", "C2_5"
@@ -2973,7 +3512,7 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_ABOUTBOX            "&About Image Scan Tool..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
@@ -2988,48 +3527,50 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "Set directory for saved images"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Open scanner failed!"
     IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Scanner found which does not support ""Film Type"" and ""Colour/Brightness Adjustment"" functions. Do you want to use this device?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "No free disk space available,Please save images to disk."
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Ready"
     IDS_PICTUREPROC         "Processing image, please wait......"
     IDS_SNAPSHOT            "Scanning, please wait......"
     IDS_SAVEIMAGE           "Saving image, please wait......"
     IDS_PICTUREPROCFNI      "Finished processing image!"
+    IDS_STRING133           "Please select a directory for saving images!"
+    IDS_STRING134           "No video device!"
+    IDS_STRING135           "No image for saving!"
+    IDS_STRING136           "Saved image to disk"
 END
 
-#endif    // English (U.S.) resources
+#endif    // ”¢”Ô(√¿π˙) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Finnish resources
+// ∑“¿º”Ô(∑“¿º) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
-#ifdef _WIN32
 LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -3086,7 +3627,7 @@ BEGIN
     CONTROL         "",IDC_PIC_LIST11,"Static",SS_BLACKFRAME | SS_CENTERIMAGE,490,288,40,31
     LTEXT           "Final images to save",IDC_STATIC,209,269,66,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Live View",IDC_STATIC,211,26,30,8,NOT WS_VISIBLE | WS_DISABLED
-    CONTROL         129,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
+    CONTROL         IDB_LIST_DEFAULT,IDC_PIC_LIVEPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,11,40,331,221,WS_EX_CLIENTEDGE
     PUSHBUTTON      "V‰rin-/kirkkaudens‰‰tˆ",IDC_BUT_COLORBRIGHTNESSAJUST,377,178,119,14
 END
 
@@ -3105,7 +3646,7 @@ BEGIN
     CONTROL         "",IDC_SLIDER_CBA_BGAIN,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,56,88,100,19
     EDITTEXT        IDC_EDIT_CBA_BGAIN,165,96,22,12,ES_AUTOHSCROLL | WS_DISABLED
     GROUPBOX        "V‰ritasapaino",IDC_STATIC,7,34,190,82
-    PUSHBUTTON      "Default",IDC_BUT_CBA_DEF,92,124,48,14
+    PUSHBUTTON      "Perusasetukset",IDC_BUT_CBA_DEF,83,124,57,14
     PUSHBUTTON      "Lopeta",IDC_BUT_EXIT,150,124,48,14
     LTEXT           "Color Balance",IDC_STATIC,82,34,44,8,NOT WS_VISIBLE | WS_DISABLED
     LTEXT           "Kirkkaus",IDC_STATIC,14,19,27,8
@@ -3121,7 +3662,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_IMAGESCAN_DIALOG, DIALOG
     BEGIN
@@ -3147,9 +3688,9 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
-    IDS_ABOUTBOX            "&About Image Scan Tool..."
+    IDS_ABOUTBOX            "&Tietoja Image Scan Tool -ohjelmasta..."
     IDS_STATICCTRL_DCLK_TIP "Double click , preview the image"
     IDS_BAR_PROPERSIZE      "Proper size"
     IDS_BAR_TRUESIZE        "True size"
@@ -3162,37 +3703,40 @@ BEGIN
     IDS_MAIN_BUT_DELETE     "Delete selected image"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_BUT_IMAGESAVE  "Save all images"
     IDS_MAIN_BUT_HMIRROR    "Horizontal mirror"
     IDS_MAIN_BUT_RROTATE    "Right rotate"
     IDS_MAIN_BUT_EXIT       "Exit"
     IDS_MAIN_BUT_RAWPAGE    "RAW Property Page"
-    IDS_MAIN_BUT_SETSAVEPATH "Set image save directory"
+    IDS_MAIN_BUT_SETSAVEPATH "M‰‰rit‰ kuvien tallennuskansio"
     IDS_MAIN_BUT_SET9MRAWSAVEPATH "Set 9M RAW file save directory"
-    IDS_OPENVIDEDEVFAIL_INFO "Open video device failed!"
+    IDS_OPENVIDEDEVFAIL_INFO "Skanneri ei vastaa."
     IDS_APTITLE             "Image Scan Tool"
     IDS_TARGETDEVICEPID289  "6355"
     IDS_TARGETDEVICEVID     "0c45"
     IDS_TARGETDEVICEPID285  "6353"
     IDS_NOTFINDTARGETDEVTEXT 
-                            "Not find target video device, do you want to use\r\nother video device which could not support ""Set\r\nFilm Type"" and ""Color Balance"" functions?"
+                            "Havaittiin skanneri, jossa ei ole toimintoja ""Filmin tyyppi"" ja ""V‰rin-/kirkkaudens‰‰tˆ"". Haluatko k‰ytt‰‰ t‰t‰ laitetta?"
     IDS_REGPATH             "SOFTWARE\\Sonix\\Image Scan Tool"
-    IDS_IMAGE_FULL          "Image list space is full, please save image to disk!"
+    IDS_IMAGE_FULL          "Tallennustila ei riit‰, Tallenna kuvat levylle"
     IDS_CREATETMPDIR_FAILED "Create temporary file directory failed!"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_READY               "Valmis"
     IDS_PICTUREPROC         "K‰sitell‰‰n kuvaa, odota..."
     IDS_SNAPSHOT            "Skannataan, odota..."
     IDS_SAVEIMAGE           "Tallennetaan kuvaa, odota..."
     IDS_PICTUREPROCFNI      "Kuva k‰sitelty!"
+    IDS_STRING133           "Valitse kuvien tallennushakemisto"
+    IDS_STRING134           "Skanneria ei lˆytynyt."
+    IDS_STRING135           "EI tallennettavaa kuvaa."
 END
 
-#endif    // Finnish resources
+#endif    // ∑“¿º”Ô(∑“¿º) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
