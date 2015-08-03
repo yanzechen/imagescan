@@ -2427,7 +2427,7 @@ EXSTYLE WS_EX_APPWINDOW
 CAPTION "Strumento di scansione immagini"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    GROUPBOX        "Tipo película",IDC_STATIC,7,2,194,24
+    GROUPBOX        "Tipo pellicola",IDC_STATIC,7,2,194,24
     CONTROL         "Negativo",IDC_RADIO_PREVIEWTYPE_NEGATIVE,"Button",BS_AUTORADIOBUTTON,22,12,45,10
     CONTROL         "Diapositiva",IDC_RADIO_PREVIEWTYPE_SLIDE,"Button",BS_AUTORADIOBUTTON,82,12,51,10
     CONTROL         "Bianco e nero",IDC_RADIO_PREVIEWTYPE_BW,"Button",BS_AUTORADIOBUTTON,133,12,59,10
@@ -3494,7 +3494,7 @@ BEGIN
             VALUE "InternalName", "ImageScan.exe"
             VALUE "LegalCopyright", "(c) <SONIX>.  All rights reserved."
             VALUE "OriginalFilename", "ImageScan.exe"
-            VALUE "PrivateBuild", "20150729"
+            VALUE "PrivateBuild", "20150730"
             VALUE "ProductName", "ImageScan"
             VALUE "ProductVersion", "1.0.0.4"
             VALUE "SpecialBuild", "C2_5"
