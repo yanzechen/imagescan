@@ -398,7 +398,7 @@ CAPTION "O Nástroji ke skenování obrázkù"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Verze 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Verze 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -444,7 +444,7 @@ CAPTION "A képolvasó eszközrõl"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Verziószám: 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Verziószám: 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Szerzõi jogi védelem (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -490,7 +490,7 @@ CAPTION "Informacje o Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Wersja 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Wersja 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -536,7 +536,7 @@ CAPTION "Despre aplica?ia scanare imagine"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Versiunea 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Versiunea 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -582,7 +582,7 @@ CAPTION "O Nástroji na skenovanie obrázkov"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Verzia 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Verzia 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -628,7 +628,7 @@ CAPTION "O orodju za optièno zajemanje slik"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Razlièica 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Razlièica 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -1725,7 +1725,7 @@ CAPTION "Çà èíñòðóìåíòà çà ñêàíèðàíå íà ñíèìêè"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Âåðñèÿ 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Âåðñèÿ 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Àâòîðñêî ïðàâî (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -1947,7 +1947,7 @@ CAPTION "Via Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Version 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -2071,7 +2071,7 @@ CAPTION "Über Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Version 1.0.0.4",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Version 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -2265,7 +2265,7 @@ CAPTION "Acerca de la herramienta de escaneo de imágenes"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Versión 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Versión 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -2381,7 +2381,7 @@ CAPTION "Tietoja Image Scan Tool -ohjelmasta"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Versio 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Versio 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -2505,7 +2505,7 @@ CAPTION "Informazioni sullo strumento di scansione immagini"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Versione 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Versione 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -2699,7 +2699,7 @@ CAPTION "Over Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Versie 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Versie 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -2893,7 +2893,7 @@ CAPTION "Sobre a ferramenta de digitalização de imagem"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Versão 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Versão 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -3088,7 +3088,7 @@ CAPTION "Om Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Version 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -3379,7 +3379,7 @@ CAPTION "About Image Scan Tool"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
-    LTEXT           "Version 1.0.0.4_C2_5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
+    LTEXT           "Version 1.0.0.5",IDC_STATIC,42,14,139,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010-2015",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "OK",IDOK,127,39,50,14,WS_GROUP
 END
@@ -3472,8 +3472,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,4
- PRODUCTVERSION 1,0,0,4
+ FILEVERSION 1,0,0,5
+ PRODUCTVERSION 1,0,0,5
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x29L
@@ -3490,14 +3490,14 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "SONIX"
             VALUE "FileDescription", "Video Camera application"
-            VALUE "FileVersion", "1.0.0.4"
+            VALUE "FileVersion", "1.0.0.5"
             VALUE "InternalName", "ImageScan.exe"
             VALUE "LegalCopyright", "(c) <SONIX>.  All rights reserved."
-            VALUE "OriginalFilename", "ImageScan.exe"
-            VALUE "PrivateBuild", "20150730"
+            VALUE "OriginalFilename", "ImageScan 1.0.0.5 C2_4.exe"
+            VALUE "PrivateBuild", "20150805"
             VALUE "ProductName", "ImageScan"
-            VALUE "ProductVersion", "1.0.0.4"
-            VALUE "SpecialBuild", "C2_5"
+            VALUE "ProductVersion", "1.0.0.5 C2_4"
+            VALUE "SpecialBuild", "C2_4"
         END
     END
     BLOCK "VarFileInfo"
