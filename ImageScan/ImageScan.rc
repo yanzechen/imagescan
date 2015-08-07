@@ -3494,10 +3494,10 @@ BEGIN
             VALUE "InternalName", "ImageScan.exe"
             VALUE "LegalCopyright", "(c) <SONIX>.  All rights reserved."
             VALUE "OriginalFilename", "ImageScan 1.0.0.5 C2_4.exe"
-            VALUE "PrivateBuild", "20150805"
+            VALUE "PrivateBuild", "20150806"
             VALUE "ProductName", "ImageScan"
-            VALUE "ProductVersion", "1.0.0.5 C2_4"
-            VALUE "SpecialBuild", "C2_4"
+            VALUE "ProductVersion", "1.0.0.5 C2_5"
+            VALUE "SpecialBuild", "C2_5"
         END
     END
     BLOCK "VarFileInfo"

@@ -95,3 +95,6 @@ v 1.0.0.4_C2_4:
 1. 按客户要求, Raw "YEdgeGain"和"YEdgeThd"固定为"63"和"8".
    注: Raw Paramter "YEdgeGain"和"YEdgeThd"固定为"63"和"8"只在"v 1.0.0.4_C2"版本中添加, "v 1.0.0.4_C1"版本中"YEdgeGain"和"YEdgeThd"
        从设备端读取.
+
+v 1.0.0.5
+1. 在1.0.0.4_C2_4基础上为ADI增加多语言版本。

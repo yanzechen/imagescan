@@ -287,7 +287,7 @@ void CImageScanDlg::Init_Paramters()
 	CString strSpecialPath;
 	SHGetSpecialFolderPath(m_hWnd, strSpecialPath.GetBuffer(MAX_PATH*2), CSIDL_PERSONAL, FALSE);
 	strSpecialPath.ReleaseBuffer();		
-	strSpecialPath += _T("\\My Pictures");
+	//strSpecialPath += _T("\\My Pictures");
 	m_strImgSaveDir = strSpecialPath;  
 
 #if MySaveRawDataToFile
@@ -658,7 +658,7 @@ void CImageScanDlg::OnBnClickedButDelete()
 	}	
 	else
 	{
-		MessageBox(_T("Please select one image!"), NULL, MB_OK | MB_ICONINFORMATION);
+		//MessageBox(_T("Please select one image!"), NULL, MB_OK | MB_ICONINFORMATION);
 	}
 }
 
@@ -685,15 +685,17 @@ void CImageScanDlg::OnBnClickedButImagesave()
 	UpdateData(TRUE);
 
 	CString strText;
+	strText.LoadString(IDS_STRING133);
 	if (m_strImgSaveDir.IsEmpty())
 	{
-		strText = _T("Please select a valid path!");
+		//strText = _T("Please select a valid path!");
+
 		MessageBox(strText, NULL, MB_OK | MB_ICONINFORMATION);
 		return;
 	}
 	else if (!IsFilePathExist(m_strImgSaveDir))
 	{ 	
-		strText.Format(_T("\"%s\" is not exist, \r\n\r\n please select a valid path!"), m_strImgSaveDir);
+		//strText.Format(_T("\"%s\" is not exist, \r\n\r\n please select a valid path!"), m_strImgSaveDir);
 		MessageBox(strText, NULL, MB_OK | MB_ICONINFORMATION);
 		return;
 	}
