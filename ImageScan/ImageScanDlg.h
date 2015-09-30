@@ -37,6 +37,8 @@ private:
 	CSetting						m_SettingDlg;
 	CColorBrightnessAjustment		m_CBADlg;
 	BOOL							m_bCBADlgFristShow; 
+	CDialog						m_ProcDialog;
+	BOOL							m_bProcDialogShow;
 
 	// Control
 	CBitmapButton m_BtnSnapshot;
@@ -49,6 +51,8 @@ private:
 	CBitmapButton m_BtnImageSave;
 	CBitmapButton m_BtnPhotosBack;
 	CBitmapButton m_BtnRawPage;	
+
+	CProgressCtrl* m_pProgress;
 
 	CStatic							m_LivePreviewWnd;		// 视频显示窗口
 	CStatic							m_ImgPreviewWnd;		// 视频拍照预览窗口

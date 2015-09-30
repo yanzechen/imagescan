@@ -67,6 +67,8 @@
 #define IDI_GGAIN2                      186
 #define IDI_RGAIN1                      187
 #define IDI_RGAIN2                      188
+#define IDD_DIALOG1                     189
+#define IDD_PROG_DIALOG                 189
 #define IDC_PIC_LIVEPREVIEW             1000
 #define IDC_PIC_SNPSHOTPREVIEW          1001
 #define IDC_RADIO_PREVIEWTYPE_SLIDE     1002
@@ -228,15 +230,16 @@
 #define IDC_EDIT_CBA_BGAIN              1152
 #define IDC_BUT_CBA_DEF                 1154
 #define IDC_BUTTON2                     1155
+#define IDC_PROGRESS1                   1156
 #define IDD_STATUSCTRL                  6000
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        189
+#define _APS_NEXT_RESOURCE_VALUE        190
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1156
+#define _APS_NEXT_CONTROL_VALUE         1157
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

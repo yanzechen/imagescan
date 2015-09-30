@@ -325,6 +325,13 @@ BEGIN
     LTEXT           "B",IDC_STATIC,24,92,8,8
 END
 
+IDD_PROG_DIALOG DIALOGEX 0, 0, 310, 28
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | WS_BORDER,7,7,296,14
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -372,6 +379,14 @@ BEGIN
         RIGHTMARGIN, 199
         TOPMARGIN, 7
         BOTTOMMARGIN, 138
+    END
+
+    IDD_PROG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
     END
 END
 #endif    // APSTUDIO_INVOKED
@@ -3493,11 +3508,11 @@ BEGIN
             VALUE "FileVersion", "1.0.0.5"
             VALUE "InternalName", "ImageScan.exe"
             VALUE "LegalCopyright", "(c) <SONIX>.  All rights reserved."
-            VALUE "OriginalFilename", "ImageScan 1.0.0.5 C2_4.exe"
-            VALUE "PrivateBuild", "20150806"
+            VALUE "OriginalFilename", "ImageScan 1.0.0.5 C2_6.exe"
+            VALUE "PrivateBuild", "20150918"
             VALUE "ProductName", "ImageScan"
-            VALUE "ProductVersion", "1.0.0.5 C2_5"
-            VALUE "SpecialBuild", "C2_5"
+            VALUE "ProductVersion", "1.0.0.5 C2_6"
+            VALUE "SpecialBuild", "C2_6"
         END
     END
     BLOCK "VarFileInfo"

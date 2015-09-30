@@ -9,6 +9,7 @@
 #include <math.h>
 
 #define Timer_NotifyUpdate_ID	1 
+#define Timer_ProgressUpdate	2
 
 DWORD WINAPI ImageThreadProc(LPVOID lpParamter);
 void Expandimage(BYTE *pInBuf, BYTE *pOutBuf, int iInWidth, int iInHeight, int iOutWidth, int iOutHeight);	
@@ -103,7 +104,7 @@ CImageScanDlg::CImageScanDlg(CWnd* pParent /*=NULL*/)
 	m_ImgSaveType			= IMAGESAVE_JPEG;	 
 	m_bCBADlgFristShow		= TRUE;		   
 	m_RawPars				= NULL;
-
+	m_bProcDialogShow = TRUE;
 	
 }
 
@@ -269,6 +270,10 @@ void CImageScanDlg::Init_Create()
 	// 创建Brightness/Color Ajustment对话框
 	m_CBADlg.Create(IDD_COLORBRIGHTNESSAJUSTMENT, this);
 	m_CBADlg.AttchRawParsPointer(&gPars);  
+
+	// 创建Progress Bar对话框
+	m_ProcDialog.Create(IDD_PROG_DIALOG, this);
+	m_pProgress = (CProgressCtrl*)m_ProcDialog.GetDlgItem(IDC_PROGRESS1);
 
 	// 创建存放拍照照片的临时文件目录
 	m_strTmpDirName.LoadString(IDS_IMAGETMPDIR);
@@ -547,6 +552,26 @@ void CImageScanDlg::OnBnClickedButSnapshot()
 	}
 
 	UIChangeOperate(UICOT_SnapshotStart);
+	// yanze_chen add 2015-09-06显示进度条对话框
+	if (m_bProcDialogShow)
+	{
+		m_bProcDialogShow = FALSE;
+		CRect rcWnd, rcPD, rcMove;
+		this->GetWindowRect(&rcWnd);
+		m_ProcDialog.GetWindowRect(&rcPD);
+
+		const int Offset = 10;
+		rcMove.left = rcWnd.left - (int)((rcPD.Width() - rcWnd.Width()) / 2)/* + Offset*/;
+		rcMove.top = rcWnd.top - (int)((rcPD.Height() - rcWnd.Height()) / 2);
+		rcMove.right = rcMove.left + rcPD.Width();
+		rcMove.bottom = rcMove.top + rcPD.Height();
+		m_ProcDialog.MoveWindow(&rcMove);
+	}
+	m_ProcDialog.ShowWindow(SW_SHOW);
+	m_pProgress->SetRange(0, 100);
+	m_pProgress->SetStep(10);
+	m_pProgress->SetPos(0);
+	SetTimer(Timer_ProgressUpdate, 50, NULL);
 	// yanze_chen changed to string table 2015-06-12
 	CString str;
 	str.LoadString(IDS_SNAPSHOT);
@@ -962,6 +987,9 @@ void CImageScanDlg::OnBnClickedButSetsavepath()
 
 LRESULT  CImageScanDlg::OnGetStillBuffer(WPARAM wparam, LPARAM lparam)
 { 
+	m_pProgress->SetPos(100);
+	KillTimer(Timer_ProgressUpdate);
+
 	if (STOREIMAGEMAXNUM == m_iStoredImgNum)
 	{
 		CString strMsg;
@@ -1045,6 +1073,8 @@ LRESULT  CImageScanDlg::OnGetStillBuffer(WPARAM wparam, LPARAM lparam)
 	// "高亮"当前拍得的照片的Static边框
 	HighlightSelectedImageStatic(m_iSelectedImgIdx); 
 
+	// yanze_chen add 2015-09-06照片处理完成后隐藏进度条对话框
+	m_ProcDialog.ShowWindow(SW_HIDE);
 	return 0;
 }
 
@@ -1745,7 +1775,11 @@ void CImageScanDlg::OnTimer(UINT_PTR nIDEvent)
 	{
 	case Timer_NotifyUpdate_ID:
 		Timer_NotifyUpdate_EventHand();
-		break;		
+		break;
+	case Timer_ProgressUpdate:
+		if(m_pProgress->GetPos()<100)
+			m_pProgress->StepIt();
+		break;
 	}
 
 	CDialog::OnTimer(nIDEvent);
